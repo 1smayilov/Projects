@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\abstract\\icustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157DF4F6-535E-446F-A593-E509A76F2671}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\concrete\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157DF4F6-535E-446F-A593-E509A76F2671}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{156319B4-F27D-4DC7-92E0-B283F0BB6A30}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157DF4F6-535E-446F-A593-E509A76F2671}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157DF4F6-535E-446F-A593-E509A76F2671}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfProductDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:45:33.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EfCategoryDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfCategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfCategoryDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfCategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfCategoryDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:44:53.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICustomerDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\ICustomerDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICustomerDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\ICustomerDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICustomerDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:32:04.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IProductDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IProductDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IProductDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:42:24.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IEntityRepository.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IEntityRepository.cs",
+              "ViewState": "AQIAAAcAAABgZmZmZmYkwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:46:35.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Concrete\\Customer.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Customer.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Concrete\\Customer.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:09:26.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\ICategoryDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICategoryDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\ICategoryDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICategoryDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:41:24.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Concrete\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Category.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Concrete\\Category.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:01:33.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
