@@ -67,7 +67,7 @@ namespace Reqemler
                 netice += tekler[reqem] + " ";
             }
 
-            return netice;
+            return netice.Trim();
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reqemler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+709ade860afa47a1864fe15317c5c23789f41ede")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dd8427ec6d4af962380f9e98ff72fc30c5c4154")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reqemler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reqemler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

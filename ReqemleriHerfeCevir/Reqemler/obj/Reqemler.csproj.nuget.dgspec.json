@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99450\\Desktop\\Projects\\Reqemler\\Reqemler\\Reqemler.csproj": {}
+    "C:\\Users\\99450\\Desktop\\Projects\\ReqemleriHerfeCevir\\Reqemler\\Reqemler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99450\\Desktop\\Projects\\Reqemler\\Reqemler\\Reqemler.csproj": {
+    "C:\\Users\\99450\\Desktop\\Projects\\ReqemleriHerfeCevir\\Reqemler\\Reqemler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\Reqemler\\Reqemler\\Reqemler.csproj",
+        "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\ReqemleriHerfeCevir\\Reqemler\\Reqemler.csproj",
         "projectName": "Reqemler",
-        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\Reqemler\\Reqemler\\Reqemler.csproj",
+        "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\ReqemleriHerfeCevir\\Reqemler\\Reqemler.csproj",
         "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\Reqemler\\Reqemler\\obj\\",
+        "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\ReqemleriHerfeCevir\\Reqemler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
