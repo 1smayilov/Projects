@@ -1,0 +1,15 @@
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\bin\Debug\net8.0\Reqemler.exe
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\bin\Debug\net8.0\Reqemler.deps.json
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\bin\Debug\net8.0\Reqemler.runtimeconfig.json
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\bin\Debug\net8.0\Reqemler.dll
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\bin\Debug\net8.0\Reqemler.pdb
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.AssemblyInfoInputs.cache
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.AssemblyInfo.cs
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.csproj.CoreCompileInputs.cache
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.sourcelink.json
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.dll
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\refint\Reqemler.dll
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.pdb
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\Reqemler.genruntimeconfig.cache
+C:\Users\99450\Desktop\Projects\Reqemler\Reqemler\obj\Debug\net8.0\ref\Reqemler.dll

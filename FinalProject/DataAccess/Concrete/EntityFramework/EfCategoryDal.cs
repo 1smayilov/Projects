@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfCategoryDal : ICategoryDal
+    public class EfCategoryDal : ICategoryDal 
     {
         public void Add(Category entity)
         {
