@@ -3,8 +3,10 @@ C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\ConsoleU
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\ConsoleUI.runtimeconfig.json
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\ConsoleUI.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\ConsoleUI.pdb
+C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\Business.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\DataAccess.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\Entities.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\Business.pdb
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\DataAccess.pdb
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Debug\net8.0\Entities.pdb
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\obj\Debug\net8.0\ConsoleUI.csproj.AssemblyReference.cache

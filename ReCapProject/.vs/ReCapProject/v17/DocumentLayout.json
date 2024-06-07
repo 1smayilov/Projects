@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47B8ECC3-D906-409C-BD15-3790AD007A94}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\inmemory\\inmemorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47B8ECC3-D906-409C-BD15-3790AD007A94}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\inmemory\\inmemorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90F8ECEF-3B8C-4C82-B262-BF1D6498CB6C}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\abstract\\icardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F8ECEF-3B8C-4C82-B262-BF1D6498CB6C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\icardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226EE116-AAAC-40FE-9C7A-ED59DAF02E5B}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{226EE116-AAAC-40FE-9C7A-ED59DAF02E5B}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D62B278-B32D-4680-A31F-E0FF543629A4}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D62B278-B32D-4680-A31F-E0FF543629A4}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47B8ECC3-D906-409C-BD15-3790AD007A94}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47B8ECC3-D906-409C-BD15-3790AD007A94}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318BAC14-B358-46DE-BD5B-424028122363}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318BAC14-B358-46DE-BD5B-424028122363}|Business\\Business.csproj|solutionrelative:business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CC4117C-B879-4D1C-A6BB-0B436F6F8619}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC4117C-B879-4D1C-A6BB-0B436F6F8619}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318BAC14-B358-46DE-BD5B-424028122363}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\abstract\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318BAC14-B358-46DE-BD5B-424028122363}|Business\\Business.csproj|solutionrelative:business\\abstract\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{898C1AB4-46BC-4E1D-BC84-5F6A8F93589F}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{898C1AB4-46BC-4E1D-BC84-5F6A8F93589F}|Entities\\Entities.csproj|solutionrelative:entities\\abstract\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F8ECEF-3B8C-4C82-B262-BF1D6498CB6C}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\inmemory\\inmemorycardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F8ECEF-3B8C-4C82-B262-BF1D6498CB6C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\inmemory\\inmemorycardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{898C1AB4-46BC-4E1D-BC84-5F6A8F93589F}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{898C1AB4-46BC-4E1D-BC84-5F6A8F93589F}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +38,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\CarManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CarManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\CarManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CarManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:37:52.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Abstract\\ICarService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICarService.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Abstract\\ICarService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T11:34:38.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InMemoryCarDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\InMemory\\InMemoryCarDal.cs",
+              "ViewState": "AQIAACEAAAAAaGZmZmb+vywAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:21:08.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICarDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\ICarDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ICarDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\ICarDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ICarDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:05:19.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Abstract\\IEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\Abstract\\IEntity.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Abstract\\IEntity.cs",
+              "RelativeToolTip": "Entities\\Abstract\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T09:54:45.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Concrete\\Car.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Car.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Concrete\\Car.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T09:51:29.948Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,48 +122,9 @@
               "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\ConsoleUI\\Program.cs",
               "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T10:32:09.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\IProductDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\IProductDal.cs",
-              "RelativeToolTip": "DataAccess\\Abstract\\IProductDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T09:11:35.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InMemoryDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\InMemory\\InMemoryDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\InMemory\\InMemoryDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\InMemory\\InMemoryDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\InMemory\\InMemoryDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T08:14:10.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Concrete\\Car.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Car.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Concrete\\Car.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Car.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T14:12:12.329Z",
+              "WhenOpened": "2024-06-04T09:48:00.473Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,5 @@
-﻿using DataAccess.Concrete.InMemory;
-using Entities.Concrete;
-using System.ComponentModel.DataAnnotations;
+﻿using Business.Concrete;
+using DataAccess.Concrete.InMemory;
 
 namespace ConsoleUI
 {
@@ -8,8 +7,12 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            InMemoryDal inMemoryDal = new InMemoryDal();
-            inMemoryDal.GetById(1);
+            CarManager carManager = new CarManager(new InMemoryCarDal());
+
+            foreach (var car in carManager.GetAll())
+            {
+                Console.WriteLine(car.Description);
+            }
         }
     }
 }

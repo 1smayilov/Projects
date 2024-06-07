@@ -11,14 +11,14 @@ namespace Reqemler
             Console.InputEncoding = Encoding.UTF8;
 
             Console.WriteLine("Ədəd daxil edin:");
-            int reqem = int.Parse(Console.ReadLine());
+            long reqem = long.Parse(Console.ReadLine()); 
 
             string netice = ReqemiHerfeCevir(reqem);
 
             Console.WriteLine(netice);
         }
 
-        static string ReqemiHerfeCevir(int reqem)
+        static string ReqemiHerfeCevir(long reqem) 
         {
             string[] tekler = { "", "bir", "iki", "üç", "dörd", "beş", "altı", "yeddi", "səkkiz", "doqquz" };
             string[] onlar = { "", "on", "iyirmi", "otuz", "qırx", "əlli", "altmış", "yetmiş", "səksən", "doxsan" };
