@@ -987,9 +987,26 @@
           }
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -2751,6 +2768,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -2759,6 +2781,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6"
     ]
@@ -2790,6 +2813,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\99450\\Desktop\\Projects\\Project\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\Project\\Core\\Core.csproj"
+            },
             "C:\\Users\\99450\\Desktop\\Projects\\Project\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\Project\\Entities\\Entities.csproj"
             }
