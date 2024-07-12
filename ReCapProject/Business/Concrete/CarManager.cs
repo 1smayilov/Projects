@@ -17,10 +17,29 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
-        public List<Car> GetAll()
+
+        public void Add(Car car)
         {
-            // İş kodları
-            return _carDal.GetAll();
+            if(car.Description.Length < 2)
+            {
+                throw new Exception("Avtomobilin adi en az 2 herfden ibaret olmalidir");
+            }
+            if(car.DailyPrice <= 0)
+            {
+                throw new Exception("Avtomobilin gunluk icaresi 0-dan boyuk olmalidir");
+            }
+            _carDal.Add(car);
+        }
+
+        public List<Car> GetCarsByBrandId(int id)
+        {
+            return _carDal.GetAll(c=>c.BrandId == id);
+        }
+
+        public List<Car> GetCarsByColorId(int id)
+        {
+            return _carDal.GetAll(c => c.ColorId == id);
+
         }
     }
 }

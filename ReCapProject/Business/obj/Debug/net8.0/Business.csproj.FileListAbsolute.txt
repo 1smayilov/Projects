@@ -16,3 +16,5 @@ C:\Users\99450\Desktop\Projects\ReCapProject\Business\obj\Debug\net8.0\Business.
 C:\Users\99450\Desktop\Projects\ReCapProject\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\99450\Desktop\Projects\ReCapProject\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\Business\bin\Debug\net8.0\Core.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\Business\bin\Debug\net8.0\Core.pdb
