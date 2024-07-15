@@ -1,0 +1,15 @@
+C:\Users\99450\Desktop\Projects\EmployeeApiData\bin\Debug\net8.0\EmployeeApiData.deps.json
+C:\Users\99450\Desktop\Projects\EmployeeApiData\bin\Debug\net8.0\EmployeeApiData.runtimeconfig.json
+C:\Users\99450\Desktop\Projects\EmployeeApiData\bin\Debug\net8.0\EmployeeApiData.dll
+C:\Users\99450\Desktop\Projects\EmployeeApiData\bin\Debug\net8.0\EmployeeApiData.pdb
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.csproj.AssemblyReference.cache
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.AssemblyInfoInputs.cache
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.AssemblyInfo.cs
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.csproj.CoreCompileInputs.cache
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.sourcelink.json
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.dll
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\refint\EmployeeApiData.dll
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.pdb
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\EmployeeApiData.genruntimeconfig.cache
+C:\Users\99450\Desktop\Projects\EmployeeApiData\obj\Debug\net8.0\ref\EmployeeApiData.dll
