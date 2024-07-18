@@ -14,6 +14,7 @@ namespace EmployeeApiData.Entities
         }
 
         public DbSet<Positions> Positions { get; set; }
+        public DbSet<EmployeeInfo> EmployeesInfo { get; set; }
 
     }
 }

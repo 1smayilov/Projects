@@ -1,5 +1,8 @@
 
 using EmployeeApiData.Entities;
+using EmployeeApiData.Mappers;
+using EmployeeApiService.Abstract;
+using EmployeeApiService.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace Employee
@@ -20,6 +23,8 @@ namespace Employee
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnection"));
             });
+            builder.Services.AddScoped<IPositionsRepository, PositionsRepository>();
+            builder.Services.AddAutoMapper(typeof(MapProfile));
 
             var app = builder.Build();
 

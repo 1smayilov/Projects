@@ -9,7 +9,7 @@ namespace EmployeeApiData.Entities
 {
     public class Positions : BaseEntity
     {
-        [StringLength(10)]
+        [StringLength(30)]
         public string Name { get; set; }
     }
 }
