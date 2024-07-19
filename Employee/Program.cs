@@ -24,6 +24,8 @@ namespace Employee
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnection"));
             });
             builder.Services.AddScoped<IPositionsRepository, PositionsRepository>();
+            builder.Services.AddScoped<IEmployeeInfoRepository, EmployeeInfoRepository>();
+            builder.Services.AddScoped<IFileRepository, FileRepository>();
             builder.Services.AddAutoMapper(typeof(MapProfile));
 
             var app = builder.Build();

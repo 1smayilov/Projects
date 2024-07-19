@@ -141,3 +141,4 @@ C:\Users\99450\Desktop\Projects\Employee\bin\Debug\net8.0\EmployeeApiData.pdb
 C:\Users\99450\Desktop\Projects\Employee\bin\Debug\net8.0\EmployeeApiService.dll
 C:\Users\99450\Desktop\Projects\Employee\bin\Debug\net8.0\EmployeeApiService.pdb
 C:\Users\99450\Desktop\Projects\Employee\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\99450\Desktop\Projects\Employee\bin\Debug\net8.0\Employee.staticwebassets.runtime.json

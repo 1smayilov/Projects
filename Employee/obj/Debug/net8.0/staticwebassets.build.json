@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "Bx8EoBw5WXM2w1CFAtsszCrHOT0S8tG9OcoSUuLxxLE=",
+  "Hash": "htg8jWaqECoSGFXsF2tvTuKOHRIFZdo1ex7OiAEy+nE=",
   "Source": "Employee",
   "BasePath": "_content/Employee",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Employee\\wwwroot",
+      "Source": "Employee",
+      "ContentRoot": "C:\\Users\\99450\\Desktop\\Projects\\Employee\\wwwroot\\",
+      "BasePath": "_content/Employee",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
