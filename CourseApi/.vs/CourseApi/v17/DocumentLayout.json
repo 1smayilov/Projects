@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\mappers\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDDBE9A-B54C-4B6D-96C8-A9284E030CF6}|CourseApi.csproj|c:\\users\\99450\\desktop\\projects\\courseapi\\controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDDBE9A-B54C-4B6D-96C8-A9284E030CF6}|CourseApi.csproj|solutionrelative:controllers\\groupscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDDBE9A-B54C-4B6D-96C8-A9284E030CF6}|CourseApi.csproj|c:\\users\\99450\\desktop\\projects\\courseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDDBE9A-B54C-4B6D-96C8-A9284E030CF6}|CourseApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\dtos\\group\\grouppostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\dtos\\group\\groupgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\courseapidata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C819675-226E-4135-A151-66126E232D40}|..\\CourseApiService\\CourseApiService.csproj|c:\\users\\99450\\desktop\\projects\\courseapiservice\\concrete\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C819675-226E-4135-A151-66126E232D40}|..\\CourseApiService\\CourseApiService.csproj|c:\\users\\99450\\desktop\\projects\\courseapiservice\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C819675-226E-4135-A151-66126E232D40}|..\\CourseApiService\\CourseApiService.csproj|c:\\users\\99450\\desktop\\projects\\courseapiservice\\abstract\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C819675-226E-4135-A151-66126E232D40}|..\\CourseApiService\\CourseApiService.csproj|c:\\users\\99450\\desktop\\projects\\courseapiservice\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\entities\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C819675-226E-4135-A151-66126E232D40}|..\\CourseApiService\\CourseApiService.csproj|c:\\users\\99450\\desktop\\projects\\courseapiservice\\courseapiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDDBE9A-B54C-4B6D-96C8-A9284E030CF6}|CourseApi.csproj|c:\\users\\99450\\desktop\\projects\\courseapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BDDBE9A-B54C-4B6D-96C8-A9284E030CF6}|CourseApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F781819F-387C-4588-B93E-B51A33EF2FF0}|..\\CourseApiData\\CourseApiData.csproj|c:\\users\\99450\\desktop\\projects\\courseapidata\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MapProfile.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Mappers\\MapProfile.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\Mappers\\MapProfile.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Mappers\\MapProfile.cs",
+              "RelativeToolTip": "..\\CourseApiData\\Mappers\\MapProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:16:22.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseApiData",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\CourseApiData.csproj",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\CourseApiData.csproj",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\CourseApiData.csproj",
+              "RelativeToolTip": "..\\CourseApiData\\CourseApiData.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T12:13:29.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupPostDto.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\DTOs\\Group\\GroupPostDto.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\DTOs\\Group\\GroupPostDto.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\DTOs\\Group\\GroupPostDto.cs",
+              "RelativeToolTip": "..\\CourseApiData\\DTOs\\Group\\GroupPostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:14:04.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupsController.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\Controllers\\GroupsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupsController.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\Controllers\\GroupsController.cs",
+              "RelativeToolTip": "Controllers\\GroupsController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwF8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:01:54.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Concrete\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiService\\Concrete\\GroupRepository.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Concrete\\GroupRepository.cs",
+              "RelativeToolTip": "..\\CourseApiService\\Concrete\\GroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:53:14.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwBoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:17:22.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Abstract\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiService\\Abstract\\IGroupRepository.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Abstract\\IGroupRepository.cs",
+              "RelativeToolTip": "..\\CourseApiService\\Abstract\\IGroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:52:10.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Concrete\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiService\\Concrete\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Concrete\\GenericRepository.cs",
+              "RelativeToolTip": "..\\CourseApiService\\Concrete\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:46:17.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\DTOs\\Group\\GroupGetDto.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\DTOs\\Group\\GroupGetDto.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\DTOs\\Group\\GroupGetDto.cs",
+              "RelativeToolTip": "..\\CourseApiData\\DTOs\\Group\\GroupGetDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:25:41.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Abstract\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiService\\Abstract\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\Abstract\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\CourseApiService\\Abstract\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:43:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseApiService",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\CourseApiService.csproj",
+              "RelativeDocumentMoniker": "..\\CourseApiService\\CourseApiService.csproj",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiService\\CourseApiService.csproj",
+              "RelativeToolTip": "..\\CourseApiService\\CourseApiService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T11:43:00.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Entities\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\Entities\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Entities\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\CourseApiData\\Entities\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:15:48.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "..\\CourseApiData\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:25:59.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Entities\\Group.cs",
+              "RelativeDocumentMoniker": "..\\CourseApiData\\Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApiData\\Entities\\Group.cs",
+              "RelativeToolTip": "..\\CourseApiData\\Entities\\Group.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T10:27:25.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\CourseApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T10:09:05.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

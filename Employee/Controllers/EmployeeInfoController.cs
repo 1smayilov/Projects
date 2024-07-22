@@ -75,14 +75,49 @@ namespace Employee.Controllers
 
         // PUT api/<EmployeeInfoController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put(int id, [FromForm] EmployeeInfoPostDTO entity)
         {
+            try
+            {
+                EmployeeInfo employeeInfo = _mapper.Map<EmployeeInfo>(entity);
+                if (entity.File != null)
+                {
+                    _fileRepository.FileDelete(_env.WebRootPath, "eployeeInfo", employeeInfo.Image);
+                    employeeInfo.Image = await _fileRepository.FileUpload(_env.WebRootPath, "employeeinfo", entity.File);
+                }
+                _employeeInfoRepository.Update(id, employeeInfo);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    Message = ex.Message,
+                    Status = "error",
+                });
+            }
         }
 
         // DELETE api/<EmployeeInfoController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            try
+            {
+                EmployeeInfo employeeInfo = _employeeInfoRepository.GetById(id);
+                if (employeeInfo == null) return NotFound();
+                _fileRepository.FileDelete(_env.WebRootPath, "employeeInfo", employeeInfo.Image);
+                _employeeInfoRepository.Delete(employeeInfo);
+                return NoContent(); 
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    Message = ex.Message,
+                    Status = "error",
+                });
+            }
         }
     }
 }

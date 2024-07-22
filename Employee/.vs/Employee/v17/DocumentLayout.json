@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\Employee\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{858683C9-6A16-411A-B2B5-187901B93C99}|Employee.csproj|c:\\users\\99450\\desktop\\projects\\employee\\controllers\\employeeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858683C9-6A16-411A-B2B5-187901B93C99}|Employee.csproj|solutionrelative:controllers\\employeeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{858683C9-6A16-411A-B2B5-187901B93C99}|Employee.csproj|c:\\users\\99450\\desktop\\projects\\employee\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{858683C9-6A16-411A-B2B5-187901B93C99}|Employee.csproj|solutionrelative:controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EB09DF0-C2D6-44D2-9772-1C9AB7BB937B}|..\\EmployeeApiData\\EmployeeApiData.csproj|c:\\users\\99450\\desktop\\projects\\employeeapidata\\dtos\\employeeinfo\\employeeinfopostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858683C9-6A16-411A-B2B5-187901B93C99}|Employee.csproj|c:\\users\\99450\\desktop\\projects\\employee\\controllers\\employeeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858683C9-6A16-411A-B2B5-187901B93C99}|Employee.csproj|solutionrelative:controllers\\employeeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EB09DF0-C2D6-44D2-9772-1C9AB7BB937B}|..\\EmployeeApiData\\EmployeeApiData.csproj|c:\\users\\99450\\desktop\\projects\\employeeapidata\\dtos\\employeeinfo\\employeeinfogetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -77,17 +77,25 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmployeeInfoController.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\Employee\\Controllers\\EmployeeInfoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeInfoController.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\Employee\\Controllers\\EmployeeInfoController.cs",
               "RelativeToolTip": "Controllers\\EmployeeInfoController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwE4AAAAJAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAADwv24AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-19T08:53:20.433Z",
               "EditorCaption": ""
@@ -102,12 +110,11 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Concrete\\FileRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAuwBEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T08:20:23.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T08:20:23.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EmployeeInfoPostDTO.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\EmployeeApiData\\DTOs\\EmployeeInfo\\EmployeeInfoPostDTO.cs",
               "RelativeDocumentMoniker": "..\\EmployeeApiData\\DTOs\\EmployeeInfo\\EmployeeInfoPostDTO.cs",
@@ -115,16 +122,7 @@
               "RelativeToolTip": "..\\EmployeeApiData\\DTOs\\EmployeeInfo\\EmployeeInfoPostDTO.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T06:53:56.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+              "WhenOpened": "2024-07-19T06:53:56.142Z"
             },
             {
               "$type": "Document",
@@ -136,18 +134,17 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T06:24:14.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T06:24:14.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PositionsController.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\Employee\\Controllers\\PositionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PositionsController.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\Employee\\Controllers\\PositionsController.cs",
               "RelativeToolTip": "Controllers\\PositionsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwPRwAAAAiAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwPRsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T12:55:12.358Z",
               "EditorCaption": ""
@@ -162,8 +159,7 @@
               "RelativeToolTip": "..\\EmployeeApiData\\DTOs\\EmployeeInfo\\EmployeeInfoGetDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T06:52:51.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T06:52:51.799Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Abstract\\IFileRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T07:43:32.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T07:43:32.317Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Abstract\\IPositionsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:39:04.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T07:39:04.876Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Abstract\\IEmployeeInfoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T10:39:36.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T10:39:36.612Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T05:52:35.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T05:52:35.048Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "..\\EmployeeApiData\\Mappers\\MapProfile.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAswBUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T11:13:07.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T11:13:07.163Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Concrete\\EmployeeInfoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAwwBgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T06:39:28.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T06:39:28.431Z"
             },
             {
               "$type": "Document",
@@ -253,8 +243,7 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Concrete\\GenericRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:26:16.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T07:26:16.37Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "..\\EmployeeApiService\\Concrete\\PositionsRepository.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:41:10.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T07:41:10.011Z"
             },
             {
               "$type": "Document",

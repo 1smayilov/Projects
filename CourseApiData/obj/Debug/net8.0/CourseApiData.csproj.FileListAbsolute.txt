@@ -1,0 +1,15 @@
+C:\Users\99450\Desktop\Projects\CourseApiData\bin\Debug\net8.0\CourseApiData.deps.json
+C:\Users\99450\Desktop\Projects\CourseApiData\bin\Debug\net8.0\CourseApiData.runtimeconfig.json
+C:\Users\99450\Desktop\Projects\CourseApiData\bin\Debug\net8.0\CourseApiData.dll
+C:\Users\99450\Desktop\Projects\CourseApiData\bin\Debug\net8.0\CourseApiData.pdb
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.csproj.AssemblyReference.cache
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.AssemblyInfoInputs.cache
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.AssemblyInfo.cs
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.csproj.CoreCompileInputs.cache
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.sourcelink.json
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.dll
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\refint\CourseApiData.dll
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.pdb
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\CourseApiData.genruntimeconfig.cache
+C:\Users\99450\Desktop\Projects\CourseApiData\obj\Debug\net8.0\ref\CourseApiData.dll
