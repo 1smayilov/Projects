@@ -13,7 +13,7 @@ namespace Core.DataAccess
         List<T> GetAll(Expression<Func<T,bool>> filter = null);
         List<T> GetById(int carId);
         T Get(Expression<Func<T, bool>> filter);
-        void Add(T entity);
+        void Add(T entity); 
         void Update(T entity);
         void Delete(T entity);
 

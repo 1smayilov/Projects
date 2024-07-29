@@ -1,6 +1,6 @@
 ﻿using DataAccess.Abstract;
+using DTOs;
 using Entities.Concrete;
-using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -68,6 +68,11 @@ namespace DataAccess.Concrete.InMemory
             productToUpdate.CategoryId = product.CategoryId;
             productToUpdate.Price = product.Price;
             productToUpdate.Unit = product.Unit;
+        }
+
+        List<ProductDetailDto> IProductDal.GetProductDetails()
+        {
+            throw new NotImplementedException();
         }
     }
 }

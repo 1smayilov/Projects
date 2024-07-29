@@ -11,7 +11,7 @@ namespace ConsoleUI
             //Data Transformation Object
             ProductTest();
             //IoC
-            CategoryTest();
+            //CategoryTest();
         }
 
         private static void CategoryTest()

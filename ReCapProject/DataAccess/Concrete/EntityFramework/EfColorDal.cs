@@ -1,4 +1,5 @@
-﻿using DataAccess.Abstract;
+﻿using Core.DataAccess.EntityFramework;
+using DataAccess.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -11,37 +12,9 @@ using Color = Entities.Concrete.Color;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfColorDal : IColorDal
+    public class EfColorDal : EfEntityRepositoryBase<Color,ReCapContext>, IColorDal
     {
-        public void Add(Color entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Color entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Color Get(Expression<Func<Color, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Color> GetAll(Expression<Func<Color, bool>> filter = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Color> GetById(int carId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Color entity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
         
