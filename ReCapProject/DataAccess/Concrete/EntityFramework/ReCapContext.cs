@@ -12,12 +12,12 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-ADHI170;Database=ReCap;Trusted_Connection=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-ADHI170;Database=ReCapProject;Trusted_Connection=True;TrustServerCertificate=True");
         }
 
-        public DbSet<Car> Car { get; set; }
-        public DbSet<Brand> Brand { get; set; }
-        public DbSet<Color> Color { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Brand> Brands { get; set; }
 
     }
 }

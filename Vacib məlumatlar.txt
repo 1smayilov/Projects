@@ -1,0 +1,42 @@
+			c# 7 : 1.20:25
+
+DataAccess - Data məlumatlarının saxlanıldığı yerdir
+Business - Iş kodlarımızı burda saxlayırıq (İf)
+Api - DataAcess və Business dış dünyaya açmaq üçündür
+
+DA - da Sql lər danışılır
+
+Uİ - Məsələn kimsə ürün yükləmək istəyir, gedir 
+business ə deyir bu adam bu ürünü yükləmək istəyir
+nə deyirsən, business yoxlayır adı 2 dən böyükdürsə 
+data acess dən soruşur bu adam neçə ürün yükləyib bu ay
+Data acess - deyir 9 dənə, business də deyir ki mənim 
+şərtlərimdən keçdi bunu bunu databasə yüklə
+Data acess deyir yüklədim
+Business də Uİ - a deyir yükləndi ekranda göstər
+Uİ da ekranda göstərir ki yükləndi
+
+Entities - IEntity implement edən class bir 
+database table-dır
+
+Abstract - interface, base class içində bunlar olacaq
+
+DataAcess - Sırf Sql olmalı deyil bunun yerinə 
+biz exceldən də data çəkmiş ola bilərik
+
+Where - İçində yazılan metoda əsasən bunları List 
+halına çevirir və List halında geri qaytarır
+
+Business - Bir business sinifi 
+başqa sinifləri new() ləməz
+
+Core - Bütün proyeklərdə istifadə edə 
+biləcəyimiz kodlar bura yığılır
+
+Core_DataAccess - Data acess ə xidmət göstərəcək
+kodları bunun içinə qoyururq
+
+DTO - Bir e-ticaret saytına girəndə ürünün listesinde
+aslında ilişkisel tablolardakı dataları da görüyorsun
+yani ürünün ismi de yazıyor ama yanında categori ismi
+de yaziyor bizə də bu lazımdır (join)

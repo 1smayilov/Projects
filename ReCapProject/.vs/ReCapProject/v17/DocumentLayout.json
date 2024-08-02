@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E97CC6C-B915-4437-A954-FE188998E644}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\entities\\concrete\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E97CC6C-B915-4437-A954-FE188998E644}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59196B93-D506-4DA4-A2E9-60E1E7E69306}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\entityframework\\efcolordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59196B93-D506-4DA4-A2E9-60E1E7E69306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcolordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59196B93-D506-4DA4-A2E9-60E1E7E69306}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\entityframework\\efbranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59196B93-D506-4DA4-A2E9-60E1E7E69306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efbranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59196B93-D506-4DA4-A2E9-60E1E7E69306}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59196B93-D506-4DA4-A2E9-60E1E7E69306}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\abstract\\ibranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\ibranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A5D9999-6D2D-4A7B-82A6-40CF04463DCA}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A5D9999-6D2D-4A7B-82A6-40CF04463DCA}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A5D9999-6D2D-4A7B-82A6-40CF04463DCA}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A5D9999-6D2D-4A7B-82A6-40CF04463DCA}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\abstract\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\abstract\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FF4758-1803-4B8B-A4A5-24D72C7F0CF0}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FF4758-1803-4B8B-A4A5-24D72C7F0CF0}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Concrete\\Order.cs",
-              "RelativeDocumentMoniker": "Entities\\Concrete\\Order.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Entities\\Concrete\\Order.cs",
-              "RelativeToolTip": "Entities\\Concrete\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:07:43.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EfColorDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfColorDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfColorDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfColorDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfColorDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:58:24.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EfBrandDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfBrandDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:36:23.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "EfCarDal.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:28:55.449Z",
+              "WhenOpened": "2024-08-02T14:39:14.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:37:55.963Z",
               "EditorCaption": ""
             },
             {
@@ -96,9 +74,48 @@
               "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:28:30.645Z",
+              "WhenOpened": "2024-08-02T14:37:51.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBrandDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\IBrandDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IBrandDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\IBrandDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IBrandDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:37:43.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrandManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\BrandManager.cs",
+              "ViewState": "AQIAAAkAAADAZmZmZmYkwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:35:48.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBrandService.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Abstract\\IBrandService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IBrandService.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Abstract\\IBrandService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IBrandService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:35:43.677Z",
               "EditorCaption": ""
             },
             {
@@ -111,15 +128,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEntityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\ConsoleUI\\Program.cs",
+              "RelativeToolTip": "ConsoleUI\\Program.cs",
+              "ViewState": "AQIAABsAAAAAzMzMzMz8vy8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T06:36:49.934Z",
+              "WhenOpened": "2024-08-02T12:52:22.077Z",
               "EditorCaption": ""
             }
           ]
