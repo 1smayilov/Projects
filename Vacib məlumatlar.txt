@@ -40,3 +40,12 @@ DTO - Bir e-ticaret saytına girəndə ürünün listesinde
 aslında ilişkisel tablolardakı dataları da görüyorsun
 yani ürünün ismi de yazıyor ama yanında categori ismi
 de yaziyor bizə də bu lazımdır (join)
+
+Constants - Proyekt boyunca sabit kodları burada yazırıq	
+
+Controller - Gələn bütün istəkləri qarşılayır
+Service də yazdığımız metodlar - (client) lər nə istəyir
+kodlama.io ya girəndə Controller qarşılayır bizi
+
+Autofac - API - proqram cs də yazdığımız AddSingleton 
+ları əvəz edəcək

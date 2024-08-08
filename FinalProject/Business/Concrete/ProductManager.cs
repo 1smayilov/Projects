@@ -1,9 +1,16 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +25,7 @@ namespace Business.Concrete
         IProductDal _productDal; // Bağımlılığı minimaze edirəm
 
         // Bağımlılığımı konstraktırla göstərirəm
-        public ProductManager(IProductDal productDal) 
+        public ProductManager(IProductDal productDal)
         {
             // Mən Product manager olaraq veri erişim katmanına bağımlıyam
 
@@ -26,28 +33,60 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-        public List<Product> GetAll()
+        public IDataResult<List<Product>> GetAll()
         {
-            // İş kodları yazılıb bura ...  
-            // Yetkisi varmı? (Hamısını listələməyə)
-             return _productDal.GetAll();
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductsListed);
+            // Data _productDal.GetAll() - dur
+            // Console.WriteLine(result.Data.ProductName); // "Laptop"
         }
 
-        public List<Product> GetAllByCategory(int categoryId)
+
+        public IDataResult<List<Product>> GetAllByCategory(int categoryId)
         {
-            return _productDal.GetAll(p=>p.CategoryId == categoryId);
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == categoryId), Messages.ProductsListed);
         }
 
 
-        public List<Product> GetUnitPrice(decimal min, decimal max)
+        public IDataResult<List<Product>> GetUnitPrice(decimal min, decimal max)
         {
-            return _productDal.GetAll(p=>p.UnitPrice >= min && p.UnitPrice <= max);
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max), Messages.ProductsListed);
         }
 
-        public List<ProductDetailDto> GetProductDetails()
+        public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            return _productDal.GetProductDetails();
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(), Messages.ProductsListed);
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
+        public IResult Add(Product product)
+        {
+            _productDal.Add(product);
+            return new SuccessResult(Messages.ProductAdded); 
+        }
+
+        public IDataResult<Product> GetById(int productId)
+        {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<Product>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<Product>(_productDal.Get(p=>p.ProductId == productId),Messages.ProductsListed);
+        }
     }
 }

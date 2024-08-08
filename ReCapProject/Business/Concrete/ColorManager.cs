@@ -1,6 +1,9 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,29 +21,52 @@ namespace Business.Concrete
             _colorDal = colorDal;
         }
 
-        public void Delete(Color color)
+        public IResult Delete(Color color)
         {
+            if(color.ColorName.Length > 2)
+            {
+                return new ErrorResult(Messages.ProductNameInvalid);
+            }
             _colorDal.Delete(color);
+            return new SuccessResult(Messages.ProductDeleted);
         }
 
-        public List<Color> GetAll()
+        public IDataResult<List<Color>> GetAll()
         {
-            return _colorDal.GetAll();
+            if (DateTime.Now.Hour == 17)
+            {
+                return new ErrorDataResult<List<Color>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll(),Messages.ProductsListed);
         }
 
-        public Color GetbyID(int colorId)
+        public IDataResult<Color> GetbyID(int colorId)
         {
-            return _colorDal.Get(co=>co.ColorId == colorId);
+            if (DateTime.Now.Hour == 23)
+            {
+                return new ErrorDataResult<Color>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<Color>(_colorDal.Get(co=>co.ColorId == colorId),Messages.ProductsListed);
         }
 
-        public void Insert(Color color)
+        public IResult Insert(Color color)
         {
+            if(color.ColorName.Length > 2)
+            {
+                return new ErrorResult(Messages.ProductNameInvalid);
+            }
             _colorDal.Add(color);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
-        public void Update(Color color)
+        public IResult Update(Color color)
         {
+            if (color.ColorName.Length < 2)
+            {
+                return new ErrorResult(Messages.ProductNameInvalid);
+            }
             _colorDal.Update(color);
+            return new SuccessResult(Messages.ProductUpdated);
         }
     }
 }

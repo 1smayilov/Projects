@@ -12,7 +12,9 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            // Data Transformation Object
             ProductTest();
+            // IoC
             //CategoryTest();
         }
 
@@ -28,10 +30,22 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
-            foreach (var pManager in productManager.GetProductDetails())
+
+            var result = productManager.GetProductDetails();
+
+            if (result.Success)
             {
-                Console.WriteLine(pManager.ProductName + "//" + pManager.CategoryName);
+                foreach (var pManager in result.Data)
+                {
+                    Console.WriteLine(pManager.ProductName + "//" + pManager.CategoryName);
+                }
             }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+
+            
         }
     }
 }

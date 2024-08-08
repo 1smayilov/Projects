@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efcardal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\brandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\brandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\dataaccess\\abstract\\ibranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D052F2E0-003A-4CF9-ACF9-6594A9F87BB9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\ibranddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\abstract\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\abstract\\ibrandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FF4758-1803-4B8B-A4A5-24D72C7F0CF0}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FF4758-1803-4B8B-A4A5-24D72C7F0CF0}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\webapi\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +42,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EfCarDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfCarDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:39:14.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEntityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\IEntityRepository.cs",
-              "RelativeToolTip": "Core\\DataAccess\\IEntityRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:37:55.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EfEntityRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:37:51.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IBrandDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\IBrandDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IBrandDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\DataAccess\\Abstract\\IBrandDal.cs",
-              "RelativeToolTip": "DataAccess\\Abstract\\IBrandDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:37:43.888Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -100,22 +52,48 @@
               "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
               "RelativeToolTip": "Business\\Concrete\\BrandManager.cs",
-              "ViewState": "AQIAAAkAAADAZmZmZmYkwB4AAAAAAAAA",
+              "ViewState": "AQIAACcAAABAZmZmZmYiwD4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:35:48.877Z",
+              "WhenOpened": "2024-08-08T12:46:10.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IBrandService.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Abstract\\IBrandService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IBrandService.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Abstract\\IBrandService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IBrandService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "BrandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T14:35:43.677Z",
+              "WhenOpened": "2024-08-08T13:05:31.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:17:16.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Business",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Business.csproj",
+              "RelativeDocumentMoniker": "Business\\Business.csproj",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Business.csproj",
+              "RelativeToolTip": "Business\\Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T12:16:00.609Z",
               "EditorCaption": ""
             },
             {
@@ -128,15 +106,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\ConsoleUI\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\ConsoleUI\\Program.cs",
               "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AQIAABsAAAAAzMzMzMz8vy8AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T12:52:22.077Z",
+              "WhenOpened": "2024-08-07T09:55:51.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAABAAAAAAMDMzMzPjvxgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:10:55.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalsController.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\RentalsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\RentalsController.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\RentalsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\RentalsController.cs",
+              "ViewState": "AQIAADwAAAAAzczMzMwYwE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:08:26.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAEgAAAAAzczMzMwqwEUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:09:15.146Z",
               "EditorCaption": ""
             }
           ]

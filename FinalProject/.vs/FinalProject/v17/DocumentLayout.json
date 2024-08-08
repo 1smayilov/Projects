@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24430BCC-325D-4B6A-B5AE-FD1196D1E68E}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24430BCC-325D-4B6A-B5AE-FD1196D1E68E}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\entities\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\entities\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\concrete\\inmemory\\inmemoryproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\inmemory\\inmemoryproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\validationrules\\fluentvalidation\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\validationrules\\fluentvalidation\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +18,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\IProductService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\IProductService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "DocumentIndex": 1,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "RelativeToolTip": "Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T09:46:32.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IProductDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IProductDal.cs",
-              "RelativeToolTip": "DataAccess\\Abstract\\IProductDal.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswA0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T09:13:07.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\ProductDetailDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTOs\\ProductDetailDto.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\ProductDetailDto.cs",
-              "RelativeToolTip": "Entities\\DTOs\\ProductDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:59:33.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\ICategoryService.cs",
-              "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:15:08.663Z",
+              "WhenOpened": "2024-08-08T13:01:34.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\ConsoleUI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\ConsoleUI\\Program.cs",
-              "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AQIAAA4AAABAZmZmZmYuwBsAAAApAAAA",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:29:44.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EfProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
-              "ViewState": "AQIAABQAAAAwMzMzMzM9wCUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T09:14:07.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:23:45.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\CategoryManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\CategoryManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:16:30.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IDto.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\IDto.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\IDto.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\IDto.cs",
-              "RelativeToolTip": "Core\\Entities\\IDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T09:04:20.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InMemoryProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\InMemory\\InMemoryProductDal.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Concrete\\InMemory\\InMemoryProductDal.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\InMemory\\InMemoryProductDal.cs",
-              "RelativeToolTip": "DataAccess\\Concrete\\InMemory\\InMemoryProductDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T09:14:35.983Z",
+              "WhenOpened": "2024-08-08T12:34:32.185Z",
               "EditorCaption": ""
             },
             {

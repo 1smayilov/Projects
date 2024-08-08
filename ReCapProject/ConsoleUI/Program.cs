@@ -3,6 +3,7 @@ using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System.ComponentModel.DataAnnotations;
+using System.Net.WebSockets;
 
 namespace ConsoleUI
 {
@@ -10,18 +11,82 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarTest();
+            //CarTest();
             //BrandTest();
             //ColorTest();
+            //RentalTest();
+            //UserTest();
+            //CustomerTest();
 
+        }
+
+        private static void CustomerTest()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+
+            var result = customerManager.Delete;
+            
+        }
+
+        private static void UserTest()
+        {
+            UserManager userManager = new UserManager(new EfUserDal());
+            User newUser = new User();
+            newUser.Firstname = "Elvin";
+            newUser.Lastname = "Ismayilov";
+            newUser.Email = "elvin1smayilov";
+            newUser.Password = "123456";
+
+            var result = userManager.Insert(newUser);
+
+
+
+            if (result.Success)
+            {
+                Console.WriteLine(newUser.Firstname + " " + newUser.Lastname);
+                Console.WriteLine(result.Message);
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+        }
+
+        private static void RentalTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.GetAll();
+
+            if (result.Success)
+            {
+
+                foreach (var resultItem in result.Data)
+                {
+                    Console.WriteLine(resultItem.RentDate);
+                    Console.WriteLine(result.Message);
+                }
+
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
         }
 
         private static void ColorTest()
         {
             ColorManager colorManager = new ColorManager(new EfColorDal());
-            foreach (var color in colorManager.GetAll())
+            var result = colorManager.GetbyID(2);
+
+            if (result.Success) 
             {
+                var color = result.Data;
+
                 Console.WriteLine(color.ColorName);
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
 
@@ -29,9 +94,18 @@ namespace ConsoleUI
         {
             BrandManager brandManager = new BrandManager(new EfBrandDal());
             {
-                foreach (var brand in brandManager.GetAll())
+                var result = brandManager.GetAll();
+
+                if(result.Success)
                 {
-                    Console.WriteLine(brand.BrandName);
+                    foreach (var brand in result.Data)
+                    {
+                        Console.WriteLine(brand.BrandName);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine(result.Message);
                 }
             }
         }
@@ -39,12 +113,21 @@ namespace ConsoleUI
         private static void CarTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            foreach (var car in carManager.GetCarDetails())
+
+            var result = carManager.GetCarDetails();
+            if (result.Success)
             {
-                Console.WriteLine($"Avtomobilin adı-{car.CarName}" + ". " +
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine($"Avtomobilin adı-{car.CarName}" + ". " +
                     $"Modelinin adı-{car.BrandName}" + ". " +
                     $"Avtomobilin rengi-{car.ColorName}" + ". " +
                     $"Gunluk icare haqqı-{car.DailyPrice} Azn");
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
     }

@@ -70,3 +70,11 @@ C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\runtimes
 C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\Core.dll
 C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\Core.pdb
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\Autofac.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\99450\Desktop\Projects\FinalProject\ConsoleUI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
