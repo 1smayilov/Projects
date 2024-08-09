@@ -14,20 +14,14 @@ using System.Threading.Tasks;
 
 namespace Business.DependencyResolvers.Autofac
 {
-    // Dependency Resolvers - Bağımlılık çözümleme 
-    // Product managerdə _cardal = cardal söhbəti
-    // İProductDalın qarşılığı nədir 
-    // İCardalın qarşılığı nədir
-    // Bunları Autofac ilə düzəldəciyik
     public class AutofacBusinessModule : Module
     {
         protected override void Load(ContainerBuilder builder)
-        { 
-            builder.RegisterType<ProductManager>().As<IProductService>().SingleInstance(); // Tək bir instance oluşsun hamıya onu versin 
-            // Biri səndən Iproductservice istəsə ona productmanager ı register et  
+        {
+            builder.RegisterType<ProductManager>().As<IProductService>().SingleInstance(); 
             builder.RegisterType<EfProductDal>().As<IProductDal>().SingleInstance();
 
-            // Bütün siniflərimiz üçün birinci Selectoru işlədir, get bax deyir gör bunun aspecti var?
+
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
@@ -36,6 +30,7 @@ namespace Business.DependencyResolvers.Autofac
                 {
                     Selector = new AspectInterceptorSelector()
                 }).SingleInstance();
+
         }
     }
 }

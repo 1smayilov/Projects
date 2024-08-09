@@ -10,7 +10,7 @@ namespace Business.ValidationRules.FluentValidation
 {
     public class ProductValidator : AbstractValidator<Product>
     {
-        public ProductValidator()
+        public ProductValidator() 
         {
             // kim üçündürdür bu kural
             RuleFor(p => p.ProductName).NotEmpty();

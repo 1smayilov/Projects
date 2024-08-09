@@ -2,7 +2,7 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
-using Core.CrossCuttingConcerns.Validation;
+using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 
-    // Sən _productDal vastəsilə product daldakı metodlara ulaşa bilirsən, onlardan istifadə edəcəksən
+// Sən _productDal vastəsilə product daldakı metodlara ulaşa bilirsən, onlardan istifadə edəcəksən
 {
     // Bura iş kodlarıdır, istədiyi cürə metod yaza bilər
     public class ProductManager : IProductService
@@ -72,6 +72,7 @@ namespace Business.Concrete
             }
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(), Messages.ProductsListed);
         }
+
 
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)

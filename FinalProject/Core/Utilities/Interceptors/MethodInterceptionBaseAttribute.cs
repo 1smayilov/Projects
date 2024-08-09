@@ -1,17 +1,19 @@
-﻿using Castle.DynamicProxy;
+﻿using Autofac.Features.Metadata;
+using Castle.DynamicProxy;
 
 namespace Core.Utilities.Interceptors
 {
-        // Classlara və ya metodlara ekliyebilirsin, birden çox ekliyebilirsin, inherit edilen bir noktada da bu atribut çalışsın
-        [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
-        public abstract class MethodInterceptionBaseAttribute : Attribute, IInterceptor
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
+    public abstract class MethodInterceptionBaseAttribute : Attribute, IInterceptor
+    {
+        public int Priority { get; set; } // Atributların sırası
+
+        public virtual void Intercept(IInvocation invocation)
         {
-            public int Priority { get; set; } // Hansı atribut birinci işləsin
-
-            public virtual void Intercept(IInvocation invocation)
-            {
-
-            }
 
         }
     }
+
+    // Bu sinif bir neçə metodun işə düşmə vaxtını nəzarət etməyə imkan verəcək bir baza təmin edir. 
+}
+

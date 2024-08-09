@@ -1,9 +1,11 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidateRules.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,13 +73,18 @@ namespace Business.Concrete
 
         public IResult Insert(Car car)
         {
-            if (car.CarName.Length < 2)
+            var context = new ValidationContext<Car>(car);
+            CarValidator validationRules = new CarValidator();
+            var result = validationRules.Validate(context);
+            if (!result.IsValid)
             {
-                return new ErrorResult(Messages.ProductNameInvalid);
+                throw new ValidationException(result.Errors);
             }
             _carDal.Add(car);
             return new SuccessResult(Messages.ProductAdded);
         }
+
+       
 
         public IResult Update(Car car)
         {

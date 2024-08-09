@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\brandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\brandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\carvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\carvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\colorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\colorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\rentalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\rentalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\validaterules\\fluentvalidation\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\validaterules\\fluentvalidation\\customervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,58 +70,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BrandManager.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\BrandManager.cs",
-              "ViewState": "AQIAACcAAABAZmZmZmYiwD4AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T12:46:10.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BrandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
-              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
-              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T13:05:31.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AutofacBusinessModule.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBQAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T12:17:16.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Business",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Business.csproj",
-              "RelativeDocumentMoniker": "Business\\Business.csproj",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Business.csproj",
-              "RelativeToolTip": "Business\\Business.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-08T12:16:00.609Z",
+              "Title": "ValidationTool.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T07:06:49.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\CarManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CarManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\CarManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CarManager.cs",
+              "ViewState": "AQIAAEAAAAAAzczMzMwQwEwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:42:25.72Z",
               "EditorCaption": ""
             },
             {
@@ -107,6 +109,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\UserValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\UserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:40:03.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\BrandValidator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:05:31.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BrandManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\BrandManager.cs",
+              "ViewState": "AQIAACMAAACAzMzMzMwUwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:46:10.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\RentalValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\RentalValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\RentalValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\RentalValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:36:58.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\CustomerValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\CustomerValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\CustomerValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\CustomerValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:35:17.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ColorValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\ColorValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\ColorValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\ColorValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\ColorValidator.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:31:21.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\CarValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidateRules\\FluentValidation\\CarValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\ValidateRules\\FluentValidation\\CarValidator.cs",
+              "RelativeToolTip": "Business\\ValidateRules\\FluentValidation\\CarValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:27:34.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T12:17:16.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Business.csproj",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Business.csproj",
+              "RelativeDocumentMoniker": "Business\\Business.csproj",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Business.csproj",
+              "RelativeToolTip": "Business\\Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T12:16:00.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\ConsoleUI\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
@@ -119,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
@@ -132,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "RentalsController.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\RentalsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\RentalsController.cs",
@@ -145,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CustomersController.cs",
