@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
@@ -28,29 +29,29 @@ namespace ConsoleUI
             
         }
 
-        private static void UserTest()
-        {
-            UserManager userManager = new UserManager(new EfUserDal());
-            User newUser = new User();
-            newUser.Firstname = "Elvin";
-            newUser.Lastname = "Ismayilov";
-            newUser.Email = "elvin1smayilov";
-            newUser.Password = "123456";
+        //private static void UserTest()
+        //{
+        //    UserManager userManager = new UserManager(new EfUserDal());
+        //    User newUser = new User();
+        //    //newUser.Firstname = "Elvin";
+        //    //newUser.Lastname = "Ismayilov";
+        //    //newUser.Email = "elvin1smayilov";
+        //    //newUser.Password = "123456";
 
-            var result = userManager.Insert(newUser);
+        //    var result = userManager.Insert(newUser);
 
 
 
-            if (result.Success)
-            {
-                Console.WriteLine(newUser.Firstname + " " + newUser.Lastname);
-                Console.WriteLine(result.Message);
-            }
-            else
-            {
-                Console.WriteLine(result.Message);
-            }
-        }
+        //    if (result.Success)
+        //    {
+        //        Console.WriteLine(newUser.FirstName + " " + newUser.LastName);
+        //        Console.WriteLine(result.Message);
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(result.Message);
+        //    }
+        //}
 
         private static void RentalTest()
         {

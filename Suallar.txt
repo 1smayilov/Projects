@@ -1,0 +1,8 @@
+Business dəki Login metodu necə işlədi
+
+Register metodu - Ümumi
+
+Burada biz token verməli deyilik 
+registrasiyadan keçən adama?                
+                
+3.27.46

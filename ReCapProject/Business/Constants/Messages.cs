@@ -16,6 +16,13 @@ namespace Business.Constants
         public static string MaintenanceTime = "Server temirdedir";
         public static string ProductsListed = "Produktlar listelendi";
         public static string TheCarWasNotReturned = "Avtomobil Geri Qaytarılmayıb";
-
+        public static string ProductNameAlreadyExists = "Bu adda başqa bir maşın var";
+        public static string FalsePictureCount = "Maşının şəklinin sayı 5 - dən çox ola bilməz";
+        public static string UserRegistered = "Qeydiyyatdan keçdi";
+        public static string UserNotFound = "İstifadəçi tapılmadı";
+        public static string PasswordError = "Şifrə yanlışdır";
+        public static string SuccessfulLogin = "Daxil oldunuz";
+        public static string UserAlreadyExists = "Bu istifadəçi mövcuddur";
+        public static string AccessTokenCreated = "Token yaradıldı";
     }
 }

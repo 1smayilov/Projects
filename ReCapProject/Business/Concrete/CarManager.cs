@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidateRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -23,6 +25,7 @@ namespace Business.Concrete
             _carDal = carDal;   
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Delete(Car car)
         {
             if(car.CarName.Length < 2)
@@ -71,21 +74,22 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c=>c.ColorId == colorId),Messages.ProductsListed);
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Insert(Car car)
         {
-            var context = new ValidationContext<Car>(car);
-            CarValidator validationRules = new CarValidator();
-            var result = validationRules.Validate(context);
-            if (!result.IsValid)
+            IResult result = BusinessRules.Run(CheckIfProductNameExists(car.CarName));
+
+            if(result != null)
             {
-                throw new ValidationException(result.Errors);
+                return result;
             }
+
             _carDal.Add(car);
             return new SuccessResult(Messages.ProductAdded);
         }
 
-       
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Update(Car car)
         {
             if (car.CarName.Length < 2)
@@ -94,6 +98,7 @@ namespace Business.Concrete
             }
             _carDal.Update(car);
             return new SuccessResult(Messages.ProductUpdated);
+        
         }
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
@@ -104,6 +109,15 @@ namespace Business.Concrete
             return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Messages.ProductsListed);
         }
 
-        
+        private IResult CheckIfProductNameExists(string carName)
+        {
+            var result = _carDal.GetAll(c => c.CarName == carName).Any();
+
+            if (result)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
+            }
+            return new SuccessResult();
+        }
     }
 }

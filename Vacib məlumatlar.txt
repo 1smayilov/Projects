@@ -1,5 +1,7 @@
 			c# 7 : 1.20:25
 
+Bunu qurtarandan sonra keç Gencay Yıldızın Mini Ticaretinə
+
 DataAccess - Data məlumatlarının saxlanıldığı yerdir
 Business - Iş kodlarımızı burda saxlayırıq (İf)
 Api - DataAcess və Business dış dünyaya açmaq üçündür
@@ -49,3 +51,12 @@ kodlama.io ya girəndə Controller qarşılayır bizi
 
 Autofac - API - proqram cs də yazdığımız AddSingleton 
 ları əvəz edəcək
+
+Hashing - database dəki açıq parolları heşləyir (gizlədir) 
+(MD5, SHA1) alqoritmləri vasitəsilə geridönüşü olmayacaq
+şəkildə heşlənirlər
+
+Salting - kullanıcının girdiyi parolu biz biraz daha gücləndiririk
+
+Encyription - Geridönüşü olan 
+

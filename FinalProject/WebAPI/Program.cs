@@ -1,59 +1,74 @@
-﻿
-using Autofac;
+﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Business.Abstract;
-using Business.Concrete;
 using Business.DependencyResolvers.Autofac;
-using DataAccess.Abstract;
-using DataAccess.Concrete.EntityFramework;
+using Core.DependencyResolvers;
+using Core.Extensions;
+using Core.Utilities.IoC;
+using Core.Utilities.Security.Encryption;
+using Core.Utilities.Security.JWT;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 
-namespace WebAPI
+public class Program
 {
-    public class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args); 
+        var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+        // Xidmətləri əlavə et
+        builder.Services.AddControllers();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
 
-            builder.Services.AddControllers();
+        // TokenOptions konfiqurasiya faylından alınır
+        var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
-            // Mən dotnetin corun IoC u yox öz yaratdığım IOC dən istifadə edəcəm 
-            // Servis sağlayıcı fabrikası olarak kullan neyi?
-            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-            // Autofac - i harda istifadə edirsən 
-            builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
+        // JWT autentifikasiyasını əlavə et
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
             {
-                builder.RegisterModule(new AutofacBusinessModule());
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidIssuer = tokenOptions.Issuer,
+                    ValidAudience = tokenOptions.Audience,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
+                };
             });
-            // Bu nəyə görə lazımdır - error qaytarır çünki İProductDalın nəyinə gedəcəyini bilmir
-            // Mənə arxa planda bir referans oluştur, Əgər IProductService istəyərlərsə ProductManager new() i ver
-            // IProductDal a da qarsiliq EfProductDal
 
+        // Asılılıqların əlavə edilməsi
+        builder.Services.AddDependencyResolvers(new ICoreModule[]
+        {
+            new CoreModule()
+        });
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+        // ServiceTool Create metodu çağırılır
+        ServiceTool.Create(builder.Services);
 
+        // Autofac konfiqurasiyası
+        builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+        builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+        {
+            containerBuilder.RegisterModule(new AutofacBusinessModule());
+        });
 
-            var app = builder.Build();
+        var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
-            app.MapControllers();
-
-            app.Run();
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
         }
+
+        app.UseHttpsRedirection();
+        app.UseAuthentication();
+        app.UseAuthorization();
+        app.MapControllers();
+
+        app.Run();
     }
 }

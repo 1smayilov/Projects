@@ -20,7 +20,7 @@ namespace Core.Aspects.Autofac.Validation
 {
     // bu classın məqsədi - metod çağırılmadan əvvəl doğrulama həyata keçirir
     // add metodunu doğrula ProductValidatoru istifadə edərək [ValidationAspect(typeof(ProductValidator))]
-    public class ValidationAspect : MethodInterception // 1.
+    public class ValidationAspect : MethodInterception // 4. // Bu bir interseptordur
     {
         private Type _validatorType;
         public ValidationAspect(Type validatorType)
@@ -33,14 +33,14 @@ namespace Core.Aspects.Autofac.Validation
 
             _validatorType = validatorType;
         }
-        protected override void OnBefore(IInvocation invocation) // 2.
+        protected override void OnBefore(IInvocation invocation) // 5.
         {
-            var validator = (IValidator)Activator.CreateInstance(_validatorType); // ProductValidator
+            var validator = (IValidator)Activator.CreateInstance(_validatorType); // ProductValidator //6.
             var entityType = _validatorType.BaseType.GetGenericArguments()[0]; // <Product>
             var entities = invocation.Arguments.Where(t => t.GetType() == entityType); // (Product product) == <Product> // Çoxlu parametrlər də ola bilərdi
             foreach (var entity in entities) // Birdən çox parametr ola bilər deyə foreach
             {
-                ValidationTool.Validate(validator, entity); // 3.   ValidateTool - u burda işlədirik 
+                ValidationTool.Validate(validator, entity); //    ValidateTool - u burda işlədirik  // 7
             }
         }
 

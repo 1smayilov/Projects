@@ -1,0 +1,38 @@
+static SqlConnection IntegrateSQL()
+{
+    string connectionStrings = @"Server=DESKTOP-ADHI170;Database=Fruits;Trusted_Connection=True;TrustServerCertificate=True;";
+    SqlConnection connection = new SqlConnection(connectionStrings);
+    return connection;
+}
+
+
+        static void GetFruits()
+        {
+            var conn = IntegrateSQL();
+            try
+            {
+                using (conn)
+                {
+                    conn.Open();
+                    string command = "select * from Fruits";
+                    SqlCommand com = new SqlCommand(command, conn);
+                    SqlDataReader reader = com.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            string columnName = reader.GetName(i);
+                            string value = reader.GetValue(i).ToString();
+                            Console.WriteLine($"{columnName} - {value}"); 
+                        }
+                    }
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+}

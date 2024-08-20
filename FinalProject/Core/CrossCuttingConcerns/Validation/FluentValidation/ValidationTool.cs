@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core.CrossCuttingConcerns.Validation.FluentValidation
 {
-    public static class ValidationTool
+    public static class ValidationTool // 7.
     {
         // ValidationTool doğrulama əməliyyatını həyata keçirir.
         public static void Validate(IValidator validator, object entity) 

@@ -10,7 +10,7 @@ namespace Core.Utilities.Results
     {
         // Console.WriteLine(result.Data.ProductName); // "Laptop"
 
-        // T data olmaginin sebebi - bu ax; void deyil return eləməlidir nəyisə
+        // T data olmaginin sebebi - bu axı void deyil return eləməlidir nəyisə
         public DataResult(T data, bool success, string message) : base(success,message) // base-dəki constr. success ilə, message-ni yolla 
         {
             Data = data;

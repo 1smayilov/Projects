@@ -3,20 +3,149 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/Northwind/True/SqlTable/dbo.OperationClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\interceptors\\methodinterceptionbaseattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterceptionbaseattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/Northwind/True/SqlTable/dbo.UserOperationClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\concrete\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\encryption\\securitykeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\encryption\\securitykeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/Northwind/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84FD3521-134E-4040-8D72-22BF0D86C6F3}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\encryption\\signingcredentialshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\encryption\\signingcredentialshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\hashing\\hashinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\hashing\\hashinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\jwt\\accesstoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\accesstoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\jwt\\itokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\itokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\jwt\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\security\\jwt\\tokenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\tokenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\extensions\\claimextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\extensions\\claimextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\businessaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\businessaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\dataaccess\\concrete\\entityframework\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9934504-EA0B-427B-B816-1695AD143205}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\dtos\\userforregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userforregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\productdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\entities\\concrete\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\entities\\concrete\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\validationrules\\fluentvalidation\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +156,32 @@
       "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\validation\\fluentvalidation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24430BCC-325D-4B6A-B5AE-FD1196D1E68E}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24430BCC-325D-4B6A-B5AE-FD1196D1E68E}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D2CE76-11EB-4E9F-A74E-15F7D020BC35}|Business\\Business.csproj|solutionrelative:business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CAB200A-E90C-45A4-A78B-A5D8F351AAC0}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|c:\\users\\99450\\desktop\\projects\\finalproject\\entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884D7D3D-9959-4687-95B6-587B0700E3A1}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +191,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MethodInterception.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
-              "ViewState": "AQIAAAUAAAAgMzMzMzM7wAkAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:52:02.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ValidationAspect.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
-              "ViewState": "AQIAABoAAABAZmZmZmYmwCUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:01:12.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductValidator.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
-              "RelativeDocumentMoniker": "Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
-              "RelativeToolTip": "Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:08:13.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MethodInterceptionBaseAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
-              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:51:40.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AspectInterceptorSelector.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:43:51.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ValidationTool.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAwA8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:51:10.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AQIAAD8AAAAAiJmZmZn5v0wAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:47:51.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AutofacBusinessModule.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T11:49:15.142Z",
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/Northwind/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-20T08:51:28.788Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -155,6 +211,585 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SecurityKeyHelper.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:59:50.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:31:47.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAADYAAABwZmZmZmYwwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:12:17.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.UserOperationClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/Northwind/True/SqlTable/dbo.UserOperationClaims.sql",
+              "ToolTip": "dbo.UserOperationClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-20T08:53:08.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.OperationClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/Northwind/True/SqlTable/dbo.OperationClaims.sql",
+              "ToolTip": "dbo.OperationClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-20T08:51:16.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T08:04:22.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAUwI8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T06:42:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:06:09.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SigningCredentialsHelper.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\Encryption\\SigningCredentialsHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Encryption\\SigningCredentialsHelper.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\Encryption\\SigningCredentialsHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Encryption\\SigningCredentialsHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:09:12.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HashingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T08:12:27.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccessToken.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\AccessToken.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\AccessToken.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\AccessToken.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\AccessToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:51:11.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:52:58.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JWTHelper.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\JWTHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\JWTHelper.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\JWTHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\JWTHelper.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:22:55.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TokenOptions.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:40:12.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceTool.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\IoC\\ServiceTool.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\IoC\\ServiceTool.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\IoC\\ServiceTool.cs",
+              "RelativeToolTip": "Core\\Utilities\\IoC\\ServiceTool.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxwAAACOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:09:48.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Core\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:13:47.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:52:32.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClaimExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Extensions\\ClaimExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Extensions\\ClaimExtensions.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Extensions\\ClaimExtensions.cs",
+              "RelativeToolTip": "Core\\Extensions\\ClaimExtensions.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:13:33.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoreModule.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\DependencyResolvers\\CoreModule.cs",
+              "RelativeDocumentMoniker": "Core\\DependencyResolvers\\CoreModule.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\DependencyResolvers\\CoreModule.cs",
+              "RelativeToolTip": "Core\\DependencyResolvers\\CoreModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:06:36.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ValidationAspect.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeToolTip": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ViewState": "AQIAAAoAAAAAMzMzMzMHwBkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:57:57.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T06:09:48.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:56:14.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SecuredOperation.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
+              "RelativeDocumentMoniker": "Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
+              "RelativeToolTip": "Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAywCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T08:58:22.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:55:01.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IUserDal.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Abstract\\IUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IUserDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:18:43.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:41:00.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BusinessRules.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Business\\BusinessRules.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Business\\BusinessRules.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Business\\BusinessRules.cs",
+              "RelativeToolTip": "Core\\Utilities\\Business\\BusinessRules.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:30:34.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T11:06:58.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:22:03.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\NorthwindContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:33:46.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserForLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\UserForLoginDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\UserForLoginDto.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\UserForLoginDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\UserForLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:50:41.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserForRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\UserForRegisterDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\UserForRegisterDto.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\UserForRegisterDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\UserForRegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:51:13.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\ProductDetailDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\ProductDetailDto.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\DTOs\\ProductDetailDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\ProductDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:55:10.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserOperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\Concrete\\UserOperationClaim.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\UserOperationClaim.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\Concrete\\UserOperationClaim.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\UserOperationClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T05:02:36.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\Concrete\\OperationClaim.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\OperationClaim.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\Concrete\\OperationClaim.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\OperationClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T05:02:41.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:25:59.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "RelativeToolTip": "Business\\ValidationRules\\FluentValidation\\ProductValidator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQvQoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T06:56:27.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ValidationTool.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\FluentValidation\\ValidationTool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T06:56:46.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Constants\\Messages.cs",
+              "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Constants\\Messages.cs",
+              "RelativeToolTip": "Business\\Constants\\Messages.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAwwB4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:18:42.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\ConsoleUI\\Program.cs",
+              "RelativeToolTip": "ConsoleUI\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAmpmZmZkFwB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:36:40.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Business\\Abstract\\ICategoryService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:21:06.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MethodInterception.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:22:15.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AspectInterceptorSelector.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T06:53:28.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DataResult.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Results\\DataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\DataResult.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Core\\Utilities\\Results\\DataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\DataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:14:34.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Concrete\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\FinalProject\\Entities\\Concrete\\Product.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:05:43.531Z",
+              "EditorCaption": ""
             }
           ]
         }

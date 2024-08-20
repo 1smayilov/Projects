@@ -1,0 +1,51 @@
+Əməliyyatların Ardıcıllığı:
+Autofac Konfiqurasiyası (Asambleyaların Proxy-lərlə qeyd edilməsi):
+
+AutofacBusinessModule sinifində Load metodu çağırılır.
+builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces() metodu ilə asambleyadakı siniflər onların implementasiya etdikləri interfeyslər olaraq qeyd olunur.
+EnableInterfaceInterceptors metodu ilə interceptorlar aktivləşdirilir və AspectInterceptorSelector istifadə edilir.
+Proxy Obyektin Yaradılması:
+
+Metod çağırışı zamanı, Autofac proxy obyektini yaradaraq orijinal sinifi əvəz edir.
+Bu proxy obyekt metod çağırışlarını idarə edir və interceptorları tətbiq edir.
+Metod Çağırışı Proxy tərəfindən İcra Edilir:
+
+ProductManager-in metoduna (Add) çağırış edilir.
+Proxy obyekt bu çağırışı qəbul edir.
+AspectInterceptorSelector İlə Interceptorların Seçilməsi:
+
+Proxy, AspectInterceptorSelector istifadə edərək metodun üzərindəki kəsiciləri (interceptors) tapır.
+AspectInterceptorSelector sinifi, metodun və sinifin atributlarına baxır və ValidationAspect sinifini müəyyən edir.
+Interceptorların Intercept Metodunun Çağırılması:
+
+Proxy, metod çağırışını qəbul etdikdə, ValidationAspect sinifinin Intercept metodu işə salınır.
+ValidationAspect-in OnBefore Metodunun İcrası:
+
+ValidationAspect sinifinin OnBefore metodu çağırılır.
+Burada ProductValidator yaradılır və metod parametrləri (əgər Product tipindədirsə) doğrulanır.
+Validatorların İcra Edilməsi:
+
+ProductValidator vasitəsilə obyektlərin doğrulanması baş verir.
+ValidationTool.Validate metodu çağırılır və doğrulama nəticələri yoxlanılır.
+Metodun Əsl İcrası:
+
+Əgər doğrulama uğurla keçirsə, proxy metod çağırışını invocation.Proceed() vasitəsilə davam etdirir.
+ProductManager-in Add metodu icra olunur.
+ValidationAspect-in OnSuccess və OnAfter Metodlarının İcrası:
+
+OnSuccess metodu çağırılır, əgər metod uğurla icra olunursa.
+Daha sonra OnAfter metodu çağırılır, metodun sonunda əlavə əməliyyatlar həyata keçirilir.
+Nəticə Qaytarılır:
+
+Add metodundan dönən nəticə (məsələn, SuccessResult) proxy obyekt tərəfindən qaytarılır.
+Qısa Xülasə:
+Autofac Konfiqurasiyası (AutofacBusinessModule)
+Proxy Obyektlərin Yaradılması
+Metod Çağırışı Proxy Tərəfindən Qəbul Edilir
+Interceptorların Seçilməsi (AspectInterceptorSelector)
+Intercept Metodunun Çağırılması (ValidationAspect)
+Doğrulama Əməliyyatları (ProductValidator)
+Metodun Əsl İcrası (ProductManager)
+OnSuccess və OnAfter Metodlarının Çağırılması
+Nəticənin Qaytarılması
+Bu ardıcıllıq metodların necə işə düşdüyünü və kəsicilərin (interceptors) necə tətbiq olunduğunu göstərir.

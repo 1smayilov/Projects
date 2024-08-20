@@ -1,8 +1,6 @@
 ﻿using Business.Abstract;
-using Business.Constants;
-using Core.Utilities.Results;
+using Core.Entities.Concrete;
 using DataAccess.Abstract;
-using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,53 +18,19 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public IResult Delete(User user)
+        public List<OperationClaim> GetClaims(User user)  
         {
-            if(user.Firstname.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
-            _userDal.Delete(user);
-            return new SuccessResult(Messages.ProductDeleted);
-            
+            return _userDal.GetClaims(user);
         }
 
-        public IDataResult<List<User>> GetAll()
+        public void Add(User user) 
         {
-            if(DateTime.Now.Hour == 17)
-            {
-                return new ErrorDataResult<List<User>>(Messages.MaintenanceTime);
-            }
-            return new SuccessDataResult<List<User>>(_userDal.GetAll(),Messages.ProductsListed);
-        }
-
-        public IDataResult<User> GetbyID(int userId)
-        {
-            if (DateTime.Now.Hour == 17)
-            {
-                return new ErrorDataResult<User>(Messages.MaintenanceTime);
-            }
-            return new SuccessDataResult<User>(_userDal.Get(u=>u.UserId == userId),Messages.ProductsListed);
-            }
-
-            public IResult Insert(User user)
-        {
-            if(user.Lastname.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
             _userDal.Add(user);
-            return new SuccessResult(Messages.ProductAdded);
         }
 
-        public IResult Update(User user)
+        public User GetByMail(string email) 
         {
-            if (user.Lastname.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
-            _userDal.Update(user);
-            return new SuccessResult(Messages.ProductUpdated);
+            return _userDal.Get(u => u.Email == email);
         }
     }
 }

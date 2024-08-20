@@ -1,6 +1,8 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidateRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -24,9 +26,9 @@ namespace Business.Concrete
         }
 
 
-        public IDataResult<List<Brand>> GetAll()    
+        public IDataResult<List<Brand>> GetAll()
         {
-            if(DateTime.Now.Hour == 23)
+            if (DateTime.Now.Hour == 23)
             {
                 return new ErrorDataResult<List<Brand>>(Messages.MaintenanceTime);
             }
@@ -43,6 +45,8 @@ namespace Business.Concrete
             return new SuccessDataResult<Brand>(_brandDal.Get(b=>b.BrandId == brandId),Messages.ProductsListed);
         }
 
+        //[ValidationAspect(typeof(BrandValidator))]
+        [SecuredOperation("brand.add,admin")] 
         public IResult Insert(Brand brand)
         {
             ValidationTool.Validate(new BrandValidator(), brand);
@@ -51,6 +55,7 @@ namespace Business.Concrete
            return new SuccessResult(Messages.ProductAdded);
         }
 
+        [ValidationAspect(typeof(BrandValidator))]
         public IResult Update(Brand brand)
         {
             if(brand.BrandName.Length < 2)
@@ -60,6 +65,8 @@ namespace Business.Concrete
             _brandDal.Update(brand);
             return new SuccessResult(Messages.ProductUpdated);
         }
+
+        //[ValidationAspect(typeof(BrandValidator))]
         public IResult Delete(Brand brand)
         {
             if (brand.BrandName.Length < 2)

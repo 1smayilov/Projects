@@ -1,7 +1,6 @@
 ﻿using Castle.DynamicProxy;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 namespace Core.Utilities.Interceptors
 {
 
-    public class AspectInterceptorSelector : IInterceptorSelector
+    public class AspectInterceptorSelector : IInterceptorSelector // 2.
     {
         public IInterceptor[] SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors)
         {

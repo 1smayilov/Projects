@@ -5,19 +5,23 @@ namespace Core.Utilities.Interceptors
 {
     public abstract class MethodInterception : MethodInterceptionBaseAttribute
     {
+        // invocation : business methods
         protected virtual void OnBefore(IInvocation invocation) { }
         protected virtual void OnAfter(IInvocation invocation) { }
         protected virtual void OnException(IInvocation invocation, System.Exception e) { }
         protected virtual void OnSuccess(IInvocation invocation) { }
-        public override void Intercept(IInvocation invocation) // Mənim işlətmək istədiyim metoddur bu (add), try, catch yoxlanışı
+        public override void Intercept(IInvocation invocation) // Mənim işlətmək istədiyim metoddur bu (add) 
+            // Burada söhbət belədir, bu metod nə vaxt işləsin metod işləməmiş(OnBefore), xəta alanda(OnException), uğurlu olanda(OnSuccess) və s
+            // Mən gedib hansı metodu ovveride eləsəm o işləyəcək yəni, o birilər yox
         {
-            // Bütün metodlar işləməmiş burdan keçəcək
-
+             
             var isSuccess = true;
-            OnBefore(invocation); 
+            OnBefore(invocation); // 8.
             try
             {
-                invocation.Proceed(); // Davam eləsin
+                invocation.Proceed(); 
+                // Əgər doğrulama uğurla keçirsə (ValidationTool), proxy metod çağırışını invocation.Proceed() vasitəsilə davam etdirir.
+                // Burdakı catch ə düşmür yəqin məntiqi tutmusan
             }
             catch (Exception e)
             {
@@ -29,11 +33,11 @@ namespace Core.Utilities.Interceptors
             {
                 if (isSuccess)
                 {
-                    OnSuccess(invocation);
+                    OnSuccess(invocation); // 10.
                 }
             }
             
-            OnAfter(invocation);
+            OnAfter(invocation); // 11.
         }
     }
 }

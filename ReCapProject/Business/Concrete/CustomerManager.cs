@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidateRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -20,6 +22,7 @@ namespace Business.Concrete
             _customerDal = customerDal;
         }
 
+        [ValidationAspect(typeof(CustomerValidator))]
         public IResult Delete(Customer customer)
         {
             if (customer.CompanyName.Length < 2)
@@ -49,6 +52,7 @@ namespace Business.Concrete
             return new SuccessDataResult<Customer>(_customerDal.Get(u => u.CustomerId == customerId), Messages.ProductsListed);
         }
 
+        [ValidationAspect(typeof(CustomerValidator))]
         public IResult Insert(Customer customer)
         {
             if (customer.CompanyName.Length < 2)
@@ -59,6 +63,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
         }
 
+        [ValidationAspect(typeof(CustomerValidator))]
         public IResult Update(Customer customer)
         {
             if (customer.CompanyName.Length < 2)

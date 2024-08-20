@@ -82,3 +82,6 @@ C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\Autofac.E
 C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\Castle.Core.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\FluentValidation.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\WebAPI.staticwebassets.runtime.json
+C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\WebAPI\bin\Release\net8.0\Microsoft.Extensions.Configuration.Binder.dll
