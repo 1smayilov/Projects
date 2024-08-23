@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PSw40M4p4iBK/mdJ2P5oO85UU/ESrB5KJKVmzaAm+MM=",
+  "Hash": "mzHerOFfrKUkFUjFjExW0TLB+0ThZSxLifhdLrI8pVA=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\079270b8-a1b8-4fc1-b92f-095638c6446c.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/079270b8-a1b8-4fc1-b92f-095638c6446c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\079270b8-a1b8-4fc1-b92f-095638c6446c.png"
+    },
     {
       "Identity": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\bd39c724-f7d8-4aa4-90af-dc9f55d7c16a.jpg",
       "SourceId": "WebAPI",
@@ -55,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\bd80ca17-23f4-4e51-bf40-84f16a880c84.jpg"
     },
     {
+      "Identity": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\c81feb71-275b-4f5e-b6a0-677833550455.png",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/c81feb71-275b-4f5e-b6a0-677833550455.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c81feb71-275b-4f5e-b6a0-677833550455.png"
+    },
+    {
       "Identity": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\default.jpg",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -72,25 +110,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\default.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\indir.jfif",
-      "SourceId": "WebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\",
-      "BasePath": "_content/WebAPI",
-      "RelativePath": "Images/indir.jfif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\indir.jfif"
     }
   ]
 }

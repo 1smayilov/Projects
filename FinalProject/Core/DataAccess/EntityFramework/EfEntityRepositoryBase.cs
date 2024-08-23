@@ -21,7 +21,7 @@ namespace Core.DataAccess.EntityFramework
             // IDisposable pattern implementation of c#
             using (TContext context = new TContext())
             {
-                // git veri kaynagindan benim yukarida gonderdigim productdan 1 tane nesneyi eslestir
+                // git veri kaynagindan benim yukarida gonderdigim productda uyğun 1 tane nesneyi eslestir
                 var addedEntity = context.Entry(entity); // referansi yakalama
                 addedEntity.State = EntityState.Added; // eklenecek nesne
                 context.SaveChanges(); // ekle

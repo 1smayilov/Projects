@@ -10,65 +10,84 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-public class Program
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+
+
+//Autofac's Configurations
+
+// .Net - ə deyirik ki sənin IOC konteynerin var ama ondan istifadə etmə, fabrika olaraq Autafac istifadə et 
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()); // 1.
+builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
 {
-    public static void Main(string[] args)
+    builder.RegisterModule(new AutofacBusinessModule()); // Nədən istifadə edəcəyimizi göstəririk
+});
+//End.
+
+//JWT's Configurations
+var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>(); // 2.
+
+// Tokenlərin necə yaradılacağını və doğrulanacağını təyin edən konfiqurasiya parametrlərini
+// (məsələn, issuer, audience, security key) əldə etmək üçün istifadə olunur.
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
     {
-        var builder = WebApplication.CreateBuilder(args);
+        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidIssuer = tokenOptions.Issuer,
+            ValidAudience = tokenOptions.Audience,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
+        };
+    });
+// Biz Asp.Net Api - ya deyirik ki burada JWT istifadə olunacaq
 
-        // Xidmətləri əlavə et
-        builder.Services.AddControllers();
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+// Təsəvvür edin ki, bir məkanın girişində bir nəzarətçi var. Hər dəfə bir şəxs daxil olmaq istəyəndə,
+// nəzarətçi bu şəxsin daxil olmaq hüququ olduğunu təsdiq edən bir kartı (token) yoxlayır. Bu kod parçası,
+// tətbiqdə bu "kartların" (tokenlərin) necə yaradılacağını və necə doğrulanacağını müəyyən edir.
+// Bu, nəzarətçinin düzgün və etibarlı kartları (tokenləri) qəbul etməsini təmin edir.
 
-        // TokenOptions konfiqurasiya faylından alınır
-        var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+//End.
 
-        // JWT autentifikasiyasını əlavə et
-        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidIssuer = tokenOptions.Issuer,
-                    ValidAudience = tokenOptions.Audience,
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
-                };
-            });
+//CORS DI
+builder.Services.AddCors();
 
-        // Asılılıqların əlavə edilməsi
-        builder.Services.AddDependencyResolvers(new ICoreModule[]
+//Dependency Injection
+builder.Services.AddDependencyResolvers(new ICoreModule[]
         {
             new CoreModule()
         });
 
-        // ServiceTool Create metodu çağırılır
-        ServiceTool.Create(builder.Services);
 
-        // Autofac konfiqurasiyası
-        builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-        builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
-        {
-            containerBuilder.RegisterModule(new AutofacBusinessModule());
-        });
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-        var app = builder.Build();
 
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
-
-        app.UseHttpsRedirection();
-        app.UseAuthentication();
-        app.UseAuthorization();
-        app.MapControllers();
-
-        app.Run();
-    }
+var app = builder.Build();
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
+//Middleware
+//app.ConfigureCustomExceptionMiddleware();
+
+//CORS Request!
+app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.UseStaticFiles();
+
+app.Run();
+

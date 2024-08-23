@@ -17,7 +17,12 @@ namespace Business.Constants
         public static string ProductsListed = "Produktlar listelendi";
         public static string TheCarWasNotReturned = "Avtomobil Geri Qaytarılmayıb";
         public static string ProductNameAlreadyExists = "Bu adda başqa bir maşın var";
-        public static string FalsePictureCount = "Maşının şəklinin sayı 5 - dən çox ola bilməz";
+        public static string FalseImageCount = "Maşının şəklinin sayı 5 - dən çox ola bilməz";
+        public static string ImageNotFound = "Şəkil tapılmadı";
+        public static string ImageDeleted = "Şəkil silindi";
+        public static string ImagesListed = "Şəkillər listələndi";
+        public static string ImagesAdded = "Şəkillər əlavə olundu";
+        public static string ImagesUpdated = "Şəkillər yeniləndi";
         public static string UserRegistered = "Qeydiyyatdan keçdi";
         public static string UserNotFound = "İstifadəçi tapılmadı";
         public static string PasswordError = "Şifrə yanlışdır";

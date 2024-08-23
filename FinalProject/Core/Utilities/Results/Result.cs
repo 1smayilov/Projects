@@ -22,7 +22,7 @@ namespace Core.Utilities.Results
         public Result(bool success) 
         {
             Success = success;
-        } // Ancaq success görmək üçün bu konstraktırdan istifaə edəciyik
+        } // Ancaq success görmək üçün bu konstraktırdan istifadə edəciyik
 
         public bool Success { get; } 
 

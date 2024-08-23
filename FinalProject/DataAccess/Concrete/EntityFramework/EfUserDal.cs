@@ -26,3 +26,5 @@ namespace DataAccess.Concrete.EntityFramework
         }
     }
 }
+// Id - si UserId yə bərabər olan operationClaimləri gətir
+

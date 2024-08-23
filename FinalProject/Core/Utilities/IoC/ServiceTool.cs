@@ -7,23 +7,27 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.IoC
 {
-    // Bizim autofac və ya WebApi da yaratdığımız injectionları istifadə etməyimizə yarayır Həm bu proyektdə həmçinin
-    // (Windows Form və ya başqa platformalarda da istifadə edə bilək deyə)
     public static class ServiceTool
     {
         public static IServiceProvider ServiceProvider { get; private set; }
 
-        public static IServiceCollection Create(IServiceCollection services) // IServiceCollection services — xidmətlərin qeyd edildiyi kolleksiya.
+        public static IServiceCollection Create(IServiceCollection services) 
         {
             ServiceProvider = services.BuildServiceProvider(); 
-            // services.BuildServiceProvider() metodu çağrılır ki, bu da qeyd olunan xidmətlərdən bir
-            // ServiceProvider yaradaraq onu ServiceProvider xüsusiyyətinə təyin edir.
             return services;
         }
     }
+    // Bundan Secured Options - da istifadə olunur
 }
 
-//Əgər bir tətbiqdə asılılıqların avtomatik olaraq idarə edilməsi və yenidən istifadəsi lazımdırsa, ServiceTool bu məqsədə xidmət edir. 
-//    Məsələn, əgər bir Autofac konteyneri istifadə edirsinizsə, 
-//    burada ServiceTool istifadə edərək konfiqurasiya edilmiş xidmətlərinizi daha sonra asanlıqla əldə edə bilərsiniz.
-//Bu, xidmətlərin və asılılıqların effektiv şəkildə idarə edilməsini təmin edir, həmçinin kodun daha təmiz və təşkilatlı qalmasına kömək edir.
+// İlkin Hazırlıq:
+// Restoran açılmadan əvvəl, sənə xidmətçiləri qeyd etmək lazımdır: ofisiantlar, aşpazlar və s. Bu, IServiceCollection vasitəsilə həyata keçirilir.
+// (bütün injectionlar)
+
+// Restoranın Açılması:
+// Restoran açıldıqda, sən Create metodunu çağırırsan. Bu metod, sənə qeyd etdiyin xidmətçiləri (xidmətləri) istifadə üçün hazır edir və
+// ServiceProvider adlı mərkəzi qurur. (Hansının əvəzinə nə olmalıdır)
+
+// Xidmətlərdən İstifadə:
+// İndi müştərilər restoranın xidmətlərindən istifadə edə bilər. Əgər bir müştəri yemək sifariş edərsə, ServiceProvider istifadə edilərək müvafiq xidmətçilər (aşpazlar, ofisiantlar və s.) işə salınır və sifariş yerinə yetirilir.
+

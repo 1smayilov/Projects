@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,10 @@ namespace Core.Utilities.IoC
 {
     public interface ICoreModule
     {
-        void Load(IServiceCollection serviceCollection);
+        // Asp.Netin injectionınından istifadə edəciyik Autofacdən istifadə olunmur burada
+        public void Load(IServiceCollection serviceCollection)
+        {
+
+        }
     }
 }

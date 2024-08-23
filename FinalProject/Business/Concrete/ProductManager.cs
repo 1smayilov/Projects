@@ -26,6 +26,9 @@ namespace Business.Concrete
     {
         IProductDal _productDal; // Bağımlılığı minimaze edirəm
         ICategoryService _categoryService;
+        // Niyə ICategoryDal yazmırıq - Entity öz Dalı xaric başqa bir dalı enjekte edə bilməzç səhvdir
+        // Əgər ICategoryDal istifadə etsəniz, bu vəziyyətdə iş məntiqi birbaşa verilənlər bazası ilə qarışmış olacaq
+
 
         // Bağımlılığımı konstraktırla göstərirəm
         public ProductManager(IProductDal productDal, ICategoryService categoryService)
@@ -80,8 +83,8 @@ namespace Business.Concrete
 
         // Claim - Yetki
 
-        [SecuredOperation("product.add, admin")]
-        //[ValidationAspect(typeof(ProductValidator))]
+        [SecuredOperation("product.add,admin")]
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product) // 3, 9
         {
            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),

@@ -13,7 +13,7 @@ namespace Core.CrossCuttingConcerns.Validation.FluentValidation
         // ValidationTool doğrulama əməliyyatını həyata keçirir.
         public static void Validate(IValidator validator, object entity) 
         {
-            var context = new ValidationContext<object>(entity);
+            var context = new ValidationContext<object>(entity); // FluentValidation dan gəlir 
             var result = validator.Validate(context); // ProductValidator product - ı yoxlayır
             if (!result.IsValid)
             {

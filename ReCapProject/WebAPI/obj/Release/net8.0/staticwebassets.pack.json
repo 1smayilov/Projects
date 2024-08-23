@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\079270b8-a1b8-4fc1-b92f-095638c6446c.png",
+      "PackagePath": "staticwebassets\\Images\\079270b8-a1b8-4fc1-b92f-095638c6446c.png"
+    },
+    {
       "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\bd39c724-f7d8-4aa4-90af-dc9f55d7c16a.jpg",
       "PackagePath": "staticwebassets\\Images\\bd39c724-f7d8-4aa4-90af-dc9f55d7c16a.jpg"
     },
@@ -9,12 +13,12 @@
       "PackagePath": "staticwebassets\\Images\\bd80ca17-23f4-4e51-bf40-84f16a880c84.jpg"
     },
     {
-      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\default.jpg",
-      "PackagePath": "staticwebassets\\Images\\default.jpg"
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\c81feb71-275b-4f5e-b6a0-677833550455.png",
+      "PackagePath": "staticwebassets\\Images\\c81feb71-275b-4f5e-b6a0-677833550455.png"
     },
     {
-      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\indir.jfif",
-      "PackagePath": "staticwebassets\\Images\\indir.jfif"
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\default.jpg",
+      "PackagePath": "staticwebassets\\Images\\default.jpg"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",

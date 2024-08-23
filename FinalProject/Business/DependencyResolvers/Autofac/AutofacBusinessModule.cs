@@ -16,10 +16,9 @@ using System.Threading.Tasks;
 
 namespace Business.DependencyResolvers.Autofac
 {
-    // Autofacin .Net-dən fərqi odur ki, Autofac bizə interceptor görevi de veriyor
-    public class AutofacBusinessModule : Module
+    public class AutofacBusinessModule : Module // Biz run verdiyimiz vaxt birinci bura işləyir
     {
-        protected override void Load(ContainerBuilder builder) // 1.
+        protected override void Load(ContainerBuilder builder) // Xəritə işi görür, nə soruşulanda nə işləsin // 1.
         {
             builder.RegisterType<ProductManager>().As<IProductService>();
             builder.RegisterType<EfProductDal>().As<IProductDal>();
@@ -43,7 +42,7 @@ namespace Business.DependencyResolvers.Autofac
                 .EnableInterfaceInterceptors(new ProxyGenerationOptions()
                 {
                     Selector = new AspectInterceptorSelector()
-                }).SingleInstance();
+                }).SingleInstance(); // Götürür eyni referans nöqtəsini hamıya onu verir
 
             // ProxyGenerationOptions obyektində Selector olaraq AspectInterceptorSelector istifadə olunur.
             // Bu, hansı interceptors-ların hansı metodlara əlavə ediləcəyini idarə edir.

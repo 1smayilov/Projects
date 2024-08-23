@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Interceptors
 {
-
+   // AspectInterceptorSelector sinifi, metodlara və siniflərə tətbiq olunmuş atributları(interceptorları) seçir.
+   // Bu atributlar metodların icra olunma vaxtında(məsələn, öncə, sonra) və ya xəta baş verəndə xüsusi əməliyyatları yerinə yetirir.
+   // SelectInterceptors metodu, metod və sinif səviyyəsində olan interceptorları seçərək qaytarır.
     public class AspectInterceptorSelector : IInterceptorSelector // 2.
     {
         public IInterceptor[] SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors)
@@ -22,41 +24,5 @@ namespace Core.Utilities.Interceptors
             return classAttributes.OrderBy(x => x.Priority).ToArray();
         }
     }
-
-//                                       Nədir bu AspectInterceptorSelector?
-
-//AspectInterceptorSelector: Bu sinif IInterceptorSelector interfeysini implement edir.Bu, metodların üzərinə tətbiq ediləcək interceptorların seçilməsi və sıralanması üçün bir mexanizm təmin edir.
-
-//Üzvlər və Əməliyyatlar:
-
-//SelectInterceptors: Bu metod, bir metod üçün tətbiq ediləcək interceptorları seçir.Burada:
-
-//type: Metodun olduğu sinifi təmsil edir.
-
-//method: İncelənən metodun özüdür.
-
-//interceptors: Mövcud interceptorların siyahısıdır.
-
-//classAttributes: Sinif səviyyəsində tətbiq edilən interceptor atributlarını (metadata) əldə edir.
-
-//methodAttributes: Metod səviyyəsində tətbiq edilən interceptor atributlarını (metadata) əldə edir.
-
-//AddRange: Sinif və metod atributlarını birləşdirir.
-
-//OrderBy(x => x.Priority): Interceptorları onların Priority(öncelik) dəyərlərinə görə sıralayır.
-
-//ToArray(): Sıralanmış interceptorların siyahısını qaytarır.
-
-                                                    //Nə İş Görəcək?
-
-//Bu sinif metodlar üzərində tətbiq ediləcək interceptorları müəyyən edir və onların icra sırasını təyin edir.Başqa sözlə:
-
-//Metodun və sinifin üzərinə tətbiq edilən interceptor atributlarını tapır.
-
-//Bu interceptorları Priority dəyərlərinə görə sıralayır.
-
-//Sıralanmış interceptorları metod çağırışı zamanı tətbiq edir.
-
-//Bu, metodlar üçün müxtəlif interceptorların (məsələn, loglama, doğrulama və ya performans monitorinqi) düzgün şəkildə işləməsini təmin etmək üçün istifadə olunur.
 }
 

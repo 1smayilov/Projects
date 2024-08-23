@@ -1,0 +1,203 @@
+										Solid
+
+						1. Single Responsibility Principle (SRP) - Tək Məsuliyyət Prinsipi
+
+Təsəvvür: Bir kuryer yalnız paketləri gətirir, məktubları isə yalnız bir poçtçu çatdırır. Hər kəs öz işini görür.
+
+Kod nümunəsi:
+
+csharp
+Kodu kopyala
+// Paketləri gətirən kuryer
+public class Courier
+{
+    public void DeliverPackage(string package)
+    {
+        // Paketi çatdırır
+        Console.WriteLine($"Delivering package: {package}");
+    }
+}
+
+// Məktubları çatdıran poçtçu
+public class Postman
+{
+    public void DeliverLetter(string letter)
+    {
+        // Məktubu çatdırır
+        Console.WriteLine($"Delivering letter: {letter}");
+    }
+}
+Açıqlama: Courier sinifi yalnız paketlərin çatdırılmasından məsuldur, Postman isə məktubların çatdırılmasından. Hər sinif tək bir məsuliyyət daşıyır.
+
+
+
+
+
+							2. Open/Closed Principle (OCP) - Açıq/Qapalı Prinsipi
+
+Təsəvvür: Bir restoranda yeni yeməklər əlavə edə bilərsiniz, amma mövcud menyu dəyişmədən.
+
+Kod nümunəsi:
+
+csharp
+Kodu kopyala
+public abstract class Dish
+{
+    public abstract void Prepare();
+}
+
+public class Pasta : Dish
+{
+    public override void Prepare()
+    {
+        Console.WriteLine("Preparing Pasta.");
+    }
+}
+
+public class Salad : Dish
+{
+    public override void Prepare()
+    {
+        Console.WriteLine("Preparing Salad.");
+    }
+}
+
+public class Restaurant
+{
+    public void CookDish(Dish dish)
+    {
+        dish.Prepare();
+    }
+}
+Açıqlama: Dish sinifi yeni yeməklər üçün açıqdır (məsələn, Pasta, Salad əlavə edə bilərsiniz), amma Restaurant sinifi dəyişmədən qalır. 
+Yeni yeməklər əlavə edildikdə mövcud kodu dəyişdirmək lazım deyil.
+
+
+
+
+						3. Liskov Substitution Principle (LSP) - Liskovun Əvəzləmə Prinsipi
+
+Təsəvvür: Bir məktəb binası üçün hər hansı bir sinif otağı, istənilən zaman istifadə edilə bilər.
+
+Kod nümunəsi:
+
+csharp
+Kodu kopyala
+public abstract class Classroom
+{
+    public abstract void UseClassroom();
+}
+
+public class MathClassroom : Classroom
+{
+    public override void UseClassroom()
+    {
+        Console.WriteLine("Using Math Classroom.");
+    }
+}
+
+public class ScienceClassroom : Classroom
+{
+    public override void UseClassroom()
+    {
+        Console.WriteLine("Using Science Classroom.");
+    }
+}
+
+public class School
+{
+    public void ConductClass(Classroom classroom)
+    {
+        classroom.UseClassroom();
+    }
+}
+Açıqlama: Classroom sinifi və onun törəmələri (MathClassroom, ScienceClassroom) eyni şəkildə istifadə edilə bilər. 
+School sinifi hər iki sinif ilə işləyə bilər və hər sinif otağı istifadə edilə bilər.
+
+
+
+
+					4. Interface Segregation Principle (ISP) - İnterfeys Ayrılması Prinsipi
+
+Təsəvvür: Bir kafe fərqli müştəri tipləri üçün xüsusi menyular təqdim edir: bir menyu vegetarianlar üçün, digər menyu isə ətdən istifadə edənlər üçün.
+
+Kod nümunəsi:
+
+csharp
+Kodu kopyala
+public interface IVegetarianMenu
+{
+    void GetVegetarianOptions();
+}
+
+public interface IMeatMenu
+{
+    void GetMeatOptions();
+}
+
+public class VegetarianCafe : IVegetarianMenu
+{
+    public void GetVegetarianOptions()
+    {
+        Console.WriteLine("Vegetarian menu options.");
+    }
+}
+
+public class MeatCafe : IMeatMenu
+{
+    public void GetMeatOptions()
+    {
+        Console.WriteLine("Meat menu options.");
+    }
+}
+Açıqlama: Müxtəlif müştəri tipləri üçün fərqli interfeyslər təqdim edilir. Hər müştəri tipi yalnız ona lazım olan interfeysi istifadə edir. 
+Bir müştəri yalnız vegetarian menyu ilə maraqlanır, digəri isə ətdən istifadə edən menyu ilə.
+
+
+
+
+						5. Dependency Inversion Principle (DIP) - Asılılıq İnversiya Prinsipi
+
+Təsəvvür: Bir kafe yüksək səviyyəli işləri özünə uyğun vasitələrlə aparır, məsələn, müştərilərin sifarişlərini idarə etmək üçün bir sistemə ehtiyac var.
+ Bu sistem birbaşa kafe aparatından asılı olmamalıdır.
+
+Kod nümunəsi:
+
+csharp
+Kodu kopyala
+public interface IOrderProcessor
+{
+    void ProcessOrder(string order);
+}
+
+public class CoffeeShopOrderProcessor : IOrderProcessor
+{
+    public void ProcessOrder(string order)
+    {
+        Console.WriteLine($"Processing coffee order: {order}");
+    }
+}
+
+public class Cafe
+{
+    private readonly IOrderProcessor _orderProcessor;
+
+    public Cafe(IOrderProcessor orderProcessor)
+    {
+        _orderProcessor = orderProcessor;
+    }
+
+    public void PlaceOrder(string order)
+    {
+        _orderProcessor.ProcessOrder(order);
+    }
+}
+Açıqlama: Cafe sinifi IOrderProcessor interfeysindən asılıdır, amma konkret CoffeeShopOrderProcessor implementasiyasından asılı deyil. 
+Bu, kodun daha çevik və test edilə bilən olmasını təmin edir.
+
+Qısa Xülasə
+SRP: Bir sinif yalnız bir məsuliyyətə malik olmalıdır.
+OCP: Siniflər genişlənə bilər, amma dəyişdirilməməlidir.
+LSP: Siniflər bir-birinin əvəzində istifadə edilə bilməlidir.
+ISP: İnterfeyslər müştərilərə lazım olan metodları təmin etməlidir.
+DIP: Yüksək səviyyəli modullar aşağı səviyyəli modullardan asılı olmamalıdır; əksinə, hər ikisi də abstractions-dan asılı olmalıdır.

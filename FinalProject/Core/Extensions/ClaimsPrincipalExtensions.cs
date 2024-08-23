@@ -15,7 +15,7 @@ namespace Core.Extensions
             return result;
         }
 
-        public static List<string> ClaimRoles(this ClaimsPrincipal claimsPrincipal)
+        public static List<string> ClaimRoles(this ClaimsPrincipal claimsPrincipal) // Bunlar mənə rolları qaytarır (admin, user)
         {
             return claimsPrincipal?.Claims(ClaimTypes.Role);
         }
