@@ -83,7 +83,7 @@ namespace Business.Concrete
 
         // Claim - Yetki
 
-        [SecuredOperation("product.add,admin")]
+        //[SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product) // 3, 9
         {
