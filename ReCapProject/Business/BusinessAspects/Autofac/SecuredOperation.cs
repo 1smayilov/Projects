@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
-using System.Text;
+using System.Text;  
 using System.Threading.Tasks;
 
 namespace Business.BusinessAspects.Autofac
@@ -24,7 +24,8 @@ namespace Business.BusinessAspects.Autofac
         {
             _roles = roles.Split(','); // vergülü sildi və 2 elementli array
             _httpContextAccessor = ServiceTool.ServiceProvider.GetService<IHttpContextAccessor>();
-           // Autofac ilə yaratdığımız injectionları alacaq(IProductDal EfProductDal)
+            // _httpContextAccessor - bu injection zəncirinin içində deyil, bunun o biri injectionları görməsi üçün ServiceTool yazırıq
+
 
         }
 
@@ -38,7 +39,8 @@ namespace Business.BusinessAspects.Autofac
                     return;
                 }
             }
-            throw new Exception("Səhv var");
+            throw new Exception(Messages.AuthorizationDenied);
+
         }
     }
 }

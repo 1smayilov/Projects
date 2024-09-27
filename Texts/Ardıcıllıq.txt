@@ -1,0 +1,206 @@
+1. DataAccess - Microsoft.EntityFrameworkCore.SqlServer
+
+* using (IDisposable pattern) - Bunun içərisində hər 
+nə varsa istifadə olunduqdan 
+sonra atılacaq (Bellekde yer tutmur)
+
+2. Core - Microsoft.EntityFrameworkCore.SqlServer
+
+* IOC - İnjectionları idarə edir 
+
+* AOP - Bir metodun önündə, bir metodun sonunda, bir metod
+xəta verəndə işləyən kodları AOP memarisi ilə yazırıq 
+Log, Validation, Transaction ...
+
+* Autofac - İnjectionları idarə edir həmçinin bizə AOP 
+imkanı yaradır
+
+3. Business/DependencyResolvers/Autofac - Niyə proqram.cs də 
+yazmırıq sabah mən eyni proyektdə 2-ci api də yaza bilərəm 
+(Yəni bu WebApi -də olmalı deyil)
+
+4. Business - Autofac (NuGet)
+
+5.Business - Autofac.Extras.DynamicProxy (NuGet) 
+
+6. Program.cs - "Autofac's Configurations"
+
+7. WebApi - Autofac.Extensions.DependencyInjection (NuGet)
+
+8. Business - FluentValidation (NuGet)
+
+9. Business/ValidationRules/FluentValidation - ProductValidator
+
+10. Core/CrossCuttingConcerns/Validation - ValidationTool
+
+11. Core - FluentValidation (NuGet)
+
+12. Core/Utilities/Interceptors - Koda müdaxilə 
+
+13. Interceptorlarin işləməsi üçün Autofac lazımdır
+
+14. Core - Autofac, Autofac.Extensions.Dependencyİnjection,
+Autofac.Extras.DynamicProxy, Castle.DynamicProxy (NuGet)
+
+* Autofac.Extensions.Dependencyİnjection - .Net Core da
+Autofacin işləməsi üçündür bu 
+(program.cs fabrika ayarları məsələsi)
+
+* Autofac.Extras.DynamicProxy - Autofac konteyneri ilə 
+Castle DynamicProxy kitabxanasını inteqrasiya edir
+Məqsəd: Autofac konteynerində metod 
+interceptorlarını istifadə etməyə imkan verir 
+Autofac tərəfindən idarə olunan obyektlərin 
+proxy obyektlərinə çevrilməsini asanlaşdırır.
+
+* Castle DynamicProxy - Proxy obyektləri yaratmaq 
+üçün istifadə olunur, Proxy obyekt, real obyektin(metodun) 
+yerinə keçir(əsl metod işləməmiş), Real obyektə əslində 
+çağırış etmədən əvvəl və ya sonra əlavə kodları 
+icra edə bilir (Interceptor vasitəsilə).(Validate, Log ...)
+Real obyekt dedikdə Autofacin konteyneri yəni - 
+<ProductManager>().As<IProductService>();
+<EfProductDal>().As<IProductDal>();
+Yəni bunların içindəki metodlara ümumən hər şeyə müdaxilə
+
+15. Core/Autofac/Validation - ValidationAspect
+Autofac - i istifadə edərək Aspect yazacam yəni
+
+16. AutofacBusinessModule - Metod əlavə edirik
+
+17. Core/Utilities/Business - BusinessRules
+
+18. JWTHelper(IConfiguration) - 
+Microsoft.Extensions.Configuration (NuGet)
+Microsoft.Extensions.Configuration.Binder (NuGet)
+
+19. Core - System.IdentityModel.Tokens.JWT (NuGet)
+(JWTSecurityToken,JWTRegisteredClaimNames) 
+
+20. Claim - System.Security.Claims (.Net)
+
+21. Business/BusinessAspects/Autofac - SecuredOperation
+Managerlərdə yetkiləri yoxlamaq üçün 
+[SecuredOperation(product.add,admin)
+
+22. Microsoft.AspNetCore.Http.Abstractions - (NuGet)
+(IHttpContextAccessor)
+
+23.Core/Utilities/IoC - ServiceTool
+
+24. Autofac.Extensions.Dependencyİnjection - Business
+
+25. Microsoft.Extensions.Dependencyİnjection - Business 
+Autofaci istifadə etmək üçün bu lazımdır.
+
+26. Business/DependencyResolvers/Autofac/AutofacBusinessModel
+builder.RegisterType<UserManager>().As<IUserService>();
+builder.RegisterType<EfUserDal>().As<IUserDal>();
+builder.RegisterType<AuthManager>().As<IAuthService>();
+builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+
+27.WebApi/Program.cs - JWT's Configurations
+Biz Asp.Net Api - ya deyirik ki burada JWT istifadə olunacaq
+
+28.Microsoft.AspNetCore.AuthenticationJwtBearer (Nuget)
+JwtBearerDefaults 
+
+29.Core/Utilities/IoC - ICoreModule
+Ümumi injectionlar etmək üçün yaradırıq 
+Yəni bunu bütün proyektlərdə istifadə edə bilərik
+O biri injectionlar isə Northwind proyekti üçündür
+
+30. Microsoft.Extensions.Dependencyİnjection - (NuGet)
+Autofacdan istifadə etmədən injection edirik.
+
+31. Core/DependencyResolvers - CoreModule
+Ümumi injectionlar etmək üçün yaradırıq 
+Yəni bunu bütün proyektlərdə istifadə edə bilərik
+O biri injectionlar isə Northwind proyekti üçündür
+
+32. CoreModule - Microsoft.AspNetCore.Http (NuGet)
+(IHttpContextAccessor)
+
+33. Core/Extensions - ServiceCollectionExtensions
+IServiceCollection - MicrosoftExtensionsDepencyInjection (NuGet)
+Bu kodun məqsədi ICoreModule - u Polimorfizm istifadə 
+edərək istifadə etmək 
+Mən sabah CoreModule dan başqa bir AnotherModule 
+da yaza bilərəm
+
+34. WebApi/Program.cs - services.AddDependencyResolvers
+
+35. Core/CrossCuttingConcerns/Caching - ICacheManager
+
+36. Core/CrossCuttingConcerns/Caching/Microsoft -
+IMemoryCache - Microsoft.Extensions.Caching.Memory (NuGet)
+
+37. Core/DependencyResolvers - CoreModule (NuGet)
+serviceCollection.AddSingleton<ICacheManager, MemoryCacheManager>();
+Core.CrossCuttingConcerns.Caching;
+
+38. Core/Caching/Microsoft/MemoryCacheManager - (NuGet)
+GetService - Microsoft.Extensions.DependencyInjection
+DI ilə bağlı digər funksiyaları istifadə etmək üçün tələb olunur.
+
+39. Core/CrossCuttingConcerns/Caching/Microsoft - Regex (NuGet)
+Regex - System.Text.RegularExpressions
+
+40. Core/Aspects/Autofac/Caching/CacheAspect - (NuGet)  
+
+41. CoreModule - serviceCollection.AddSingleton<Stopwatch>();
+1 dənə instancesini yaradır hərkəsə onu verir
+
+42. AspectInterceptorSelector - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

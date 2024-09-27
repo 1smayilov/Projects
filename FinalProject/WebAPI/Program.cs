@@ -53,11 +53,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 //End.
 
-//CORS DI
-builder.Services.AddCors();
+
 
 //Dependency Injection
-builder.Services.AddDependencyResolvers(new ICoreModule[]
+builder.Services.AddDependencyResolvers(new ICoreModule[] // 3.
         {
             new CoreModule()
         });
@@ -66,6 +65,8 @@ builder.Services.AddDependencyResolvers(new ICoreModule[]
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//CORS DI
+builder.Services.AddCors();
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.

@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\Images\\079270b8-a1b8-4fc1-b92f-095638c6446c.png"
     },
     {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\0ee43b5c-15fa-4791-9cf1-4baf657dc165.jpg",
+      "PackagePath": "staticwebassets\\Images\\0ee43b5c-15fa-4791-9cf1-4baf657dc165.jpg"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\1cb9d777-71c0-40c1-853c-1962b135e7cc.jpg",
+      "PackagePath": "staticwebassets\\Images\\1cb9d777-71c0-40c1-853c-1962b135e7cc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\2046f7b0-0642-4bc3-9b90-23b886d95204.jpg",
+      "PackagePath": "staticwebassets\\Images\\2046f7b0-0642-4bc3-9b90-23b886d95204.jpg"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\25c9e1c8-d08a-4197-9529-a350632100e0.pdf",
+      "PackagePath": "staticwebassets\\Images\\25c9e1c8-d08a-4197-9529-a350632100e0.pdf"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\7ae6e9bc-126d-4168-8a8e-de2559a0cc8c.jpg",
+      "PackagePath": "staticwebassets\\Images\\7ae6e9bc-126d-4168-8a8e-de2559a0cc8c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\95a9ea10-e1cd-436c-9785-2e095bad91ba.png",
+      "PackagePath": "staticwebassets\\Images\\95a9ea10-e1cd-436c-9785-2e095bad91ba.png"
+    },
+    {
       "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\bd39c724-f7d8-4aa4-90af-dc9f55d7c16a.jpg",
       "PackagePath": "staticwebassets\\Images\\bd39c724-f7d8-4aa4-90af-dc9f55d7c16a.jpg"
     },
@@ -17,8 +41,20 @@
       "PackagePath": "staticwebassets\\Images\\c81feb71-275b-4f5e-b6a0-677833550455.png"
     },
     {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\cfc514a1-dd49-48bd-9e9c-f944e4eec6b0.jpg",
+      "PackagePath": "staticwebassets\\Images\\cfc514a1-dd49-48bd-9e9c-f944e4eec6b0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\decda556-3266-4ecd-a723-d04b98689981.jpg",
+      "PackagePath": "staticwebassets\\Images\\decda556-3266-4ecd-a723-d04b98689981.jpg"
+    },
+    {
       "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\default.jpg",
       "PackagePath": "staticwebassets\\Images\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\wwwroot\\Images\\e55dcaa5-d83e-4017-8823-de248be86522.jpg",
+      "PackagePath": "staticwebassets\\Images\\e55dcaa5-d83e-4017-8823-de248be86522.jpg"
     },
     {
       "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",

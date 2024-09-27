@@ -1,0 +1,2 @@
+C:\Users\99450\Desktop\Projects>dotnet tool install --global NArchitecture.Gen --version 1.0.1
+narchgen

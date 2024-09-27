@@ -2,6 +2,9 @@
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Utilities.Business;
@@ -41,6 +44,7 @@ namespace Business.Concrete
 
         }
 
+        [CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 22)
@@ -83,8 +87,13 @@ namespace Business.Concrete
 
         // Claim - Yetki
 
-        //[SecuredOperation("product.add,admin")]
+        [PerformanceAspect(5)]
+        [SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")] // Sadəcə Get yazsan bütün servislərdəki getlərə aid olacaq (ki bu səhv yoldur)
+        [TransactionScopeAspect]
+        // IProductService.Get adını atributda göstərsəniz, bu metod icra edildikdən sonra,
+        // IProductService.Get metodunun nəticəsi Ramdan silinir və növbəti dəfə bu metod çağırıldıqda yenidən məlumat bazasından əldə ediləcək.
         public IResult Add(Product product) // 3, 9
         {
            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
@@ -103,6 +112,7 @@ namespace Business.Concrete
             
         }
 
+        [CacheAspect]
         public IDataResult<Product> GetById(int productId)
         {
             if (DateTime.Now.Hour == 22)
@@ -142,5 +152,7 @@ namespace Business.Concrete
             return new SuccessResult();
 
         }
+
+        
     }
 }

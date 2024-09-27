@@ -9,7 +9,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class AuthController : Controller
     {
-        IAuthService _authService;
+        private IAuthService _authService;
 
         public AuthController(IAuthService authService)
         {
@@ -17,17 +17,15 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("login")]
-
         public ActionResult Login(UserForLoginDto userForLoginDto)
         {
             var userToLogin = _authService.Login(userForLoginDto);
-
             if (!userToLogin.Success)
             {
                 return BadRequest(userToLogin.Message);
             }
 
-            var result = _authService.CreateAccessToken(userToLogin.Data); // User i qaytarır 
+            var result = _authService.CreateAccessToken(userToLogin.Data);
             if (result.Success)
             {
                 return Ok(result.Data);
@@ -37,20 +35,22 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("register")]
-
         public ActionResult Register(UserForRegisterDto userForRegisterDto)
         {
-            var userToExist = _authService.UserExist(userForRegisterDto.Email);
-            if (!userToExist.Success)
+            var userExists = _authService.UserExist(userForRegisterDto.Email);
+            if (!userExists.Success)
             {
-                return BadRequest(userToExist.Message);
+                return BadRequest(userExists.Message);
             }
+
             var registerResult = _authService.Register(userForRegisterDto, userForRegisterDto.Password);
-            if (registerResult.Success)
+            var result = _authService.CreateAccessToken(registerResult.Data);
+            if (result.Success)
             {
-                return Ok(registerResult.Data);
+                return Ok(result.Data);
             }
-            return BadRequest(registerResult.Message);
+
+            return BadRequest(result.Message);
         }
     }
 }

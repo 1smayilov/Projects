@@ -3,35 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\webapi\\controllers\\carimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\carimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\crosscuttingconcerns\\caching\\microsoft\\memorycachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\caching\\microsoft\\memorycachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\carimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\carimagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\concrete\\brandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\utilities\\helpers\\filehelper\\filehelpermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\utilities\\helpers\\filehelper\\filehelpermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.CarImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D200A1E8-42F2-468E-BCD4-AB3802A7BE03}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\core\\aspects\\autofac\\transaction\\transactionscopeaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F577EC6E-6E3D-4170-881F-57CA297BAA39}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\transaction\\transactionscopeaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\businessaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\businessaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|c:\\users\\99450\\desktop\\projects\\recapproject\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D97315FB-FB16-4F87-BE5F-8631801AC0DE}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.OperationClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.UserOperationClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,7 +35,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,98 +47,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-22T12:28:42.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AutofacBusinessModule.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwPSUAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:14:18.6Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CarImageController.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\CarImageController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CarImageController.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\WebAPI\\Controllers\\CarImageController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CarImageController.cs",
-              "ViewState": "AQIAADMAAAAAoJmZmZnZvzcAAAAuAAAA",
+              "Title": "MemoryCacheManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:01:12.894Z",
+              "WhenOpened": "2024-08-27T12:59:32.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "SecuredOperation.cs",
               "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
               "RelativeDocumentMoniker": "Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
               "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
               "RelativeToolTip": "Business\\BusinessAspects\\Autofac\\SecuredOperation.cs",
-              "ViewState": "AQIAABMAAACAZmZmZmYewCgAAAAsAAAA",
+              "ViewState": "AQIAABcAAAAAZWZmZmYGwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T12:08:34.626Z"
+              "WhenOpened": "2024-08-27T12:07:43.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.OperationClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.OperationClaims.sql",
+              "ToolTip": "dbo.OperationClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-27T12:06:46.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CarImageManager.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\CarImageManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\CarImageManager.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\CarImageManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\CarImageManager.cs",
-              "ViewState": "AQIAAFsAAACAMzMzMzMnwF8AAAAvAAAA",
+              "Title": "BrandManager.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\BrandManager.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Concrete\\BrandManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\BrandManager.cs",
+              "ViewState": "AQIAAC8AAAAAMzMzMzMXwDkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:25:36.164Z",
+              "WhenOpened": "2024-08-27T11:49:41.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FileHelperManager.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\Utilities\\Helpers\\FileHelper\\FileHelperManager.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Helpers\\FileHelper\\FileHelperManager.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\Utilities\\Helpers\\FileHelper\\FileHelperManager.cs",
-              "RelativeToolTip": "Core\\Utilities\\Helpers\\FileHelper\\FileHelperManager.cs",
-              "ViewState": "AQIAAA8AAAAAZ2ZmZmYSwCYAAAAAAAAA",
+              "Title": "TransactionScopeAspect.cs",
+              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
+              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
+              "RelativeToolTip": "Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:25:24.748Z"
+              "WhenOpened": "2024-08-27T12:33:40.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.CarImages [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.CarImages.sql",
-              "ToolTip": "dbo.CarImages [Data]",
+              "DocumentIndex": 6,
+              "Title": "dbo.UserOperationClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.UserOperationClaims.sql",
+              "ToolTip": "dbo.UserOperationClaims [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-22T13:17:20.486Z"
+              "WhenOpened": "2024-08-27T12:06:42.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Constants\\Messages.cs",
-              "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
-              "ToolTip": "C:\\Users\\99450\\Desktop\\Projects\\ReCapProject\\Business\\Constants\\Messages.cs",
-              "RelativeToolTip": "Business\\Constants\\Messages.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBgAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T10:30:08.331Z"
+              "DocumentIndex": 5,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_ADHI170/ReCapProject/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-27T12:06:39.786Z"
             }
           ]
         }

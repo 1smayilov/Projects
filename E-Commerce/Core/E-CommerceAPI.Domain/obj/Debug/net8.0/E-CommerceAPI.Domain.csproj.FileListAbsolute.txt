@@ -1,0 +1,12 @@
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\bin\Debug\net8.0\E-CommerceAPI.Domain.deps.json
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\bin\Debug\net8.0\E-CommerceAPI.Domain.dll
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\bin\Debug\net8.0\E-CommerceAPI.Domain.pdb
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.AssemblyInfo.cs
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.sourcelink.json
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.dll
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\refint\E-CommerceAPI.Domain.dll
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\E-CommerceAPI.Domain.pdb
+C:\Users\99450\Desktop\Projects\E-Commerce\Core\E-CommerceAPI.Domain\obj\Debug\net8.0\ref\E-CommerceAPI.Domain.dll

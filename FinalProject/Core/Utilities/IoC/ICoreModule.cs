@@ -11,7 +11,8 @@ namespace Core.Utilities.IoC
     public interface ICoreModule
     {
         // Asp.Netin injectionınından istifadə edəciyik Autofacdən istifadə olunmur burada
-        public void Load(IServiceCollection serviceCollection);
+        // Ümumi əlavə injectionlar üçün
+         void Load(IServiceCollection serviceCollection);
 
     }
 }

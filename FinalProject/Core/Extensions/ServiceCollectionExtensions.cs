@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 namespace Core.Extensions
 {
     public static class ServiceCollectionExtensions
-        // Bütün injectionları bir yerdə toplamaq üçün yazdığımız koddur
+        // Bu kodun məqsədi ICoreModule - u Polimorfizm istifadə edərək istifadə etmək 
+        // Mən sabah CoreModule dan başqa bir Module da yaza bilərəm
+        // Bu bütün injectionları bir araya toplayır
     {
         public static IServiceCollection AddDependencyResolvers(this IServiceCollection serviceCollection, ICoreModule[] modules)
         {
@@ -22,3 +24,7 @@ namespace Core.Extensions
         }
     }
 }
+
+// Müştəri restorana gələndə, menyudan istənilən yeməyi seçə bilər. Sən də aşpaza demək əvəzinə, sadəcə sifariş verirsən.
+// Polimorfizm burada sənə kömək edir. Sənin üçün fərq etmir ki, müştəri pizza, makaron və ya şorba sifariş edir -
+// sifariş hansı yemək olursa olsun, aşpaz onu hazırlayacaq. Yəni, müştəri hansı yeməyi sifariş etsə də, sən eyni qayda ilə aşpaza sifarişi ötürürsən.

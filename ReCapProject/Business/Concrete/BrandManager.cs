@@ -2,6 +2,9 @@
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidateRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Core.Utilities.Results;
@@ -16,6 +19,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
+[PerformanceAspect(5)]
     public class BrandManager : IBrandService
     {
         IBrandDal _brandDal;
@@ -25,7 +29,8 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-
+        [SecuredOperation("getall,admin")]
+        [CacheAspect]
         public IDataResult<List<Brand>> GetAll()
         {
             if (DateTime.Now.Hour == 23)
@@ -36,6 +41,8 @@ namespace Business.Concrete
 
         }
 
+        [SecuredOperation("getall,user")]
+        [CacheAspect]
         public IDataResult<Brand> GetbyID(int brandId)
         {
             if(DateTime.Now.Hour == 17)
@@ -45,17 +52,24 @@ namespace Business.Concrete
             return new SuccessDataResult<Brand>(_brandDal.Get(b=>b.BrandId == brandId),Messages.ProductsListed);
         }
 
+
+        //[SecuredOperation("admin,brand.add")]
         //[ValidationAspect(typeof(BrandValidator))]
-        [SecuredOperation("brand.add,admin")] 
+        [CacheRemoveAspect("IBrandService.Get")]
+        //[TransactionScopeAspect]
         public IResult Insert(Brand brand)
         {
-            ValidationTool.Validate(new BrandValidator(), brand);
-
             _brandDal.Add(brand);
            return new SuccessResult(Messages.ProductAdded);
         }
 
+
+
+
+        [SecuredOperation("admin,brand.add")]
         [ValidationAspect(typeof(BrandValidator))]
+        [CacheRemoveAspect("IBrandService.Get")]
+        [TransactionScopeAspect]
         public IResult Update(Brand brand)
         {
             if(brand.BrandName.Length < 2)
@@ -66,7 +80,11 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductUpdated);
         }
 
-        //[ValidationAspect(typeof(BrandValidator))]
+
+        [SecuredOperation("admin,brand.add")]
+        [ValidationAspect(typeof(BrandValidator))]
+        [CacheRemoveAspect("IBrandService.Get")]
+        [TransactionScopeAspect]
         public IResult Delete(Brand brand)
         {
             if (brand.BrandName.Length < 2)

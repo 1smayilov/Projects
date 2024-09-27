@@ -1,0 +1,24 @@
+1) Migration-lar - Persistence da yazılmalıdır.
+Bunun üçün Startup ımız olan Api ya bu paketi yükləyirik
+Microsoft.EntityFrameworkCore.Design
+
+2) Persistence - ə bunu yüklə 
+Microsoft.EntityFrameworkCore.Tools 
+
+3) appsetings də Sql bağlantımızı yazmışıq
+Bunu ServiceRegistration da göstərmək 
+üçün bu paketlər yüklənməlidir
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.Configuration.Json
+
+4) 10 - cu dərs
+
+
+
+
+
+
+
+
+
+ 

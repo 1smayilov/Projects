@@ -10,7 +10,7 @@ namespace Business.ValidateRules.FluentValidation
 {
     public class BrandValidator : AbstractValidator<Brand>
     {
-        public BrandValidator()
+        public BrandValidator()     
         {
             RuleFor(b=>b.BrandName).NotEmpty();
             RuleFor(b => b.BrandName).MinimumLength(2);
@@ -21,5 +21,5 @@ namespace Business.ValidateRules.FluentValidation
         {
             return arg.EndsWith("s");
         }
-    }
+    }   
 }

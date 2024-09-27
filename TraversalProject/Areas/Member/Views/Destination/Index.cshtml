@@ -1,0 +1,32 @@
+﻿@using EntityLayer.Concrete
+@model List<Destination>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h1>Aktiv Tur İstiqamətləri</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <td>#</td>
+        <td>Şəhər</td>
+        <td>Vaxt</td>
+        <td>Tutum</td>
+        <td>Qiymət</td>
+        <td>Təfərrüatlar</td>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.DestinationId</td>
+            <td>@item.City</td>
+            <td>@item.DayNight</td>
+            <td>@item.Capacity</td>
+            <td>@item.Price ₼</td>
+            <td><a href="#" class="btn btn-outline-info">Təfərrüatlar</a></td>
+        </tr>
+    }          
+</table>
+

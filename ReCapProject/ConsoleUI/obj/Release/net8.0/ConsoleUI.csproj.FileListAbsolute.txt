@@ -82,3 +82,7 @@ C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Micros
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\System.IO.Pipelines.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Microsoft.AspNetCore.Http.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\99450\Desktop\Projects\ReCapProject\ConsoleUI\bin\Release\net8.0\Microsoft.Net.Http.Headers.dll
