@@ -1,0 +1,20 @@
+﻿@using DTOLayer.DTOs.AnnouncementDTOs
+@model AnnouncementUpdateDto
+
+@{
+    ViewData["Title"] = "UpdateAnnouncement";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Elan Redakte Səhifəsi</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="AnnouncementId"/>
+    <label>Elan Başlığı</label>
+    <input type="text" asp-for="Title" class="form-control"/>
+    <br />
+    <label>Elan Məzmunu</label>
+    <input type="text" asp-for="Content" class="form-control" />
+    <br />
+    <button class="btn btn-outline-primary">Elanı Redakte Et</button>
+</form>

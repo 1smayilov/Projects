@@ -1,0 +1,12 @@
+C:\Users\99450\Desktop\Projects\DTOLayer\bin\Debug\net8.0\DTOLayer.deps.json
+C:\Users\99450\Desktop\Projects\DTOLayer\bin\Debug\net8.0\DTOLayer.dll
+C:\Users\99450\Desktop\Projects\DTOLayer\bin\Debug\net8.0\DTOLayer.pdb
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.AssemblyInfo.cs
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.sourcelink.json
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.dll
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\refint\DTOLayer.dll
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\DTOLayer.pdb
+C:\Users\99450\Desktop\Projects\DTOLayer\obj\Debug\net8.0\ref\DTOLayer.dll

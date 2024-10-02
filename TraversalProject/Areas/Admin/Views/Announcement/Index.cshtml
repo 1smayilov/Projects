@@ -1,0 +1,32 @@
+﻿
+@using DTOLayer.DTOs.AnnouncementDTOs
+@model List<AnnouncementListDto> 
+@{ 
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Elan Siyahısı</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Başlıq</th>
+        <th>Məzmun</th>
+        <th>Sİl</th>
+        <th>Redakte Et</th>
+        <th>TəfərrÜat</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.AnnouncementId</td> 
+            <td>@item.Title</td>
+            <td>@item.Content</td>
+            <td><a href="/Admin/Announcement/DeleteAnnouncement/@item.AnnouncementId" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/Announcement/UpdateAnnouncement/@item.AnnouncementId" class="btn btn-outline-success">Redakte Et</a></td>
+            <td><a href="#" class="btn btn-outline-dark">Təfərrüat</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Announcement/AddAnnouncement/" class="btn btn-outline-info">Yeni Elan Girişi</a>

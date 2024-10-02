@@ -1,4 +1,6 @@
-﻿@{
+﻿
+
+@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
@@ -25,13 +27,28 @@
 
 <br />
 
+<div>
+    <input type="text" id="txtcityid" placeholder="Silinəcək Id dəyərini daxil edin" class="form-control" />
+</div>
+
+<br />
+
+<div>
+    <input type="text" id="txtcityeditid" placeholder="Redakte ediləcək Id dəyərini daxil edin" class="form-control" />
+    <input type="text" id="txtcityeditname" placeholder="Redakte ediləcək Şəhər məlumatını daxil edin" class="form-control" />
+    <input type="text" id="txtcityeditdaynight" placeholder="Redakte ediləcək Gün-Gecə məlumatını daxil edin" class="form-control" />
+    <input type="text" id="txtcityeditprice" placeholder="Redakte ediləcək Qiyməti daxil edin" class="form-control" />
+</div>
+
+<br />
+
+
 
 <div id="destinationlistbyid">
-
 </div>
- 
+
 <br />
-<div> 
+<div>
     <input type="text" id="txtcity" placeholder="Şəhər adını daxil edin" class="form-control" />
     <br />
     <input type="text" id="txtdaynight" placeholder="Gün - Gecə Sayı" class="form-control" />
@@ -48,7 +65,7 @@
             dataType: "json",
             type: "GET",
             url: "/Admin/City/CityList/",
-            success: function (func) {
+            success: function (func) {  
                 let w = typeof func === 'string' ? JSON.parse(func) : func;
 
                 console.log(w);
@@ -76,7 +93,7 @@
         $.ajax({
             type: "POST",
             url: "/Admin/City/AddCityDestination/",
-            data: cityvalues, 
+            data: cityvalues,
             success: function (func) {
                 let result = jQuery.parseJSON(func)
                 alert("Şəhər uğurla əlavə olundu");
@@ -112,6 +129,44 @@
             }
         });
     });
+
+    $("#btndeletecity").click(function () {
+        let id = $("#txtcityid").val();
+        $.ajax({
+            url: "/Admin/City/DeleteCity/" + id,
+            type: "POST",
+            contentType: "application/json",
+            dataType: "json",
+            success: function (fun3) {
+                alert("Şəhər Silindi")
+            }
+        });
+    });
+
+    $("#btnupdatecity").click(function () {
+        let values = {
+            DestinationId: $("#txtcityeditid").val(),
+            City: $("#txtcityeditname").val(),
+            DayNight: $("#txtcityeditdaynight").val(),
+                Price: $("#txtcityeditprice").val()
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "/Admin/City/UpdateCity/",
+            data: values,
+            success: function (fun4) {
+                alert("Redaktə tamamlandı");
+            },
+            error: function (xhr, status, error) {
+                alert("Xəta baş verdi: " + error);
+            }
+        });
+
+
+    });
+
+
 
 
 

@@ -57,11 +57,12 @@ namespace TraversalProject.Areas.Admin.Controllers
             return NoContent();
         }
 
-        //public IActionResult UpdateCity(Destination destination)
-        //{
-        //    var values = _destinationService.GetById(destination.DestinationId);
-        //    _destinationService.Update(values);
-        //}
+        public IActionResult UpdateCity(Destination destination)
+        {
+            _destinationService.Update(destination);
+            var v = JsonConvert.SerializeObject(destination);
+            return Json(v);
+        }
 
 
         //public static List<CityClass> cities = new List<CityClass>

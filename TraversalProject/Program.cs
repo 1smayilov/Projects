@@ -1,26 +1,31 @@
 ﻿using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using BusinessLayer.Container;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using TraversalProject.Mapping.AutoMapperProfile;
 using TraversalProject.Models;
 
 namespace TraversalProject
 {
     public class Program
-    {
+    { 
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<Context>();
             builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddMvc(config =>
+            builder.Services.AddControllersWithViews().AddFluentValidation();
+            builder.Services.AddMvc(config => 
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
                 config.Filters.Add(new AuthorizeFilter(policy));
@@ -28,7 +33,14 @@ namespace TraversalProject
 
             builder.Services.AddMvc();
 
+            builder.Services.AddHttpClient();
+
             builder.Services.ContainerDependencies();
+
+            builder.Services.CustomerValidator(); 
+
+            builder.Services.AddAutoMapper(typeof(MapProfile));
+
 
             builder.Services.AddLogging(x =>
             {
