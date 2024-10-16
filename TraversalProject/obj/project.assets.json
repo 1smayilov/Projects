@@ -880,6 +880,48 @@
           }
         }
       },
+      "MediatR/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "11.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -6190,6 +6232,49 @@
         "lib/netstandard2.1/MailKit.xml",
         "mailkit.4.7.1.1.nupkg.sha512",
         "mailkit.nuspec"
+      ]
+    },
+    "MediatR/11.0.0": {
+      "sha512": "8klzVGZQiA2oxZRzQFBZbdPD/IQUm9RYtfiyTDKhxDQ99Gi93+GXt1ZJjH2D7Lh7ZFHCv5XdkwbmfHEQBCatPg==",
+      "type": "package",
+      "path": "mediatr/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.11.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication/2.1.1": {
@@ -14524,6 +14609,7 @@
       "FluentValidation >= 11.9.2",
       "FluentValidation.AspNetCore >= 11.3.0",
       "MailKit >= 4.7.1.1",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.AspNetCore.Identity >= 2.1.39",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
@@ -14540,19 +14626,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\99450\\.nuget\\packages\\": {}
+    "C:\\Users\\Etimad\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99450\\Desktop\\Projects\\TraversalProject\\TraversalProject.csproj",
+      "projectUniqueName": "E:\\Elvin\\Desktop\\Projects\\TraversalProject\\TraversalProject.csproj",
       "projectName": "TraversalProject",
-      "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\TraversalProject\\TraversalProject.csproj",
-      "packagesPath": "C:\\Users\\99450\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99450\\Desktop\\Projects\\TraversalProject\\obj\\",
+      "projectPath": "E:\\Elvin\\Desktop\\Projects\\TraversalProject\\TraversalProject.csproj",
+      "packagesPath": "C:\\Users\\Etimad\\.nuget\\packages\\",
+      "outputPath": "E:\\Elvin\\Desktop\\Projects\\TraversalProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\99450\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Etimad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14560,20 +14651,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\99450\\Desktop\\Projects\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\BusinessLayer\\BusinessLayer.csproj"
+            "E:\\Elvin\\Desktop\\Projects\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "E:\\Elvin\\Desktop\\Projects\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\99450\\Desktop\\Projects\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\DataAccessLayer\\DataAccessLayer.csproj"
+            "E:\\Elvin\\Desktop\\Projects\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "E:\\Elvin\\Desktop\\Projects\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\99450\\Desktop\\Projects\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\99450\\Desktop\\Projects\\EntityLayer\\EntityLayer.csproj"
+            "E:\\Elvin\\Desktop\\Projects\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "E:\\Elvin\\Desktop\\Projects\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -14616,6 +14708,10 @@
           "MailKit": {
             "target": "Package",
             "version": "[4.7.1.1, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
           },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
@@ -14693,7 +14789,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,8 +9,10 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using TraversalProject.CQRS.Handlers.DestinationHandlers;
 using TraversalProject.Mapping.AutoMapperProfile;
 using TraversalProject.Models;
 
@@ -49,7 +51,16 @@ namespace TraversalProject
                 x.AddDebug();
             });
 
+            builder.Services.AddScoped<GetAllDestinationQueryHandler>();
+            builder.Services.AddScoped<GetDestinationByIdQueryHandler>();
+            builder.Services.AddScoped<CreateDestinationCommandHandler>();
+            builder.Services.AddScoped<RemoveDestinationCommandHandler>();
+            builder.Services.AddScoped<UpdateDestinationCommandHandler>();
+
+            builder.Services.AddMediatR(typeof(Program));
+             
             
+
 
 
             var app = builder.Build();
@@ -77,19 +88,16 @@ namespace TraversalProject
 
             app.UseAuthorization();
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Default}/{action=Index}/{id?}");
+            
 
-            app.MapControllerRoute(
-                        name: "areas",
-                        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-                        );
+                app.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-            app.MapControllerRoute(
-              name: "areas",
-              pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-            );
+                app.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
             app.Run();
         }

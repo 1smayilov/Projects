@@ -59,34 +59,22 @@ namespace TraversalProject.Areas.Admin.Controllers
 
         public IActionResult UpdateCity(Destination destination)
         {
-            _destinationService.Update(destination);
-            var v = JsonConvert.SerializeObject(destination);
-            return Json(v);
+            var existingDestination = _destinationService.GetById(destination.DestinationId);
+
+            if (existingDestination != null)
+            {
+                existingDestination.City = destination.City ?? existingDestination.City;
+                existingDestination.Price = destination.Price != 0 ? destination.Price : existingDestination.Price;
+                existingDestination.Description = destination.Description ?? existingDestination.Description;
+                existingDestination.Status = destination.Status; 
+
+                _destinationService.Update(existingDestination);
+                var v = JsonConvert.SerializeObject(existingDestination);
+                return Json(v);
+            }
+
+            return NotFound("Şəhər tapılmadı.");
         }
 
-
-        //public static List<CityClass> cities = new List<CityClass>
-        //{
-        //    new CityClass
-        //    {
-        //        CityId = 1,
-        //        CityName = "Bakı",
-        //        CityCountry = "Azərbaycan"
-        //    },
-
-        //    new CityClass
-        //    {
-        //        CityId = 2,
-        //        CityName = "Roma",
-        //        CityCountry = "Italiya"
-        //    },
-
-        //    new CityClass
-        //    {
-        //        CityId = 3,
-        //        CityName = "London",
-        //        CityCountry = "Ingiltərə"
-        //    }
-        //};
     }
 }

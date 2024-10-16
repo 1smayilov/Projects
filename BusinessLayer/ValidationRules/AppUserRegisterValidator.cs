@@ -15,7 +15,8 @@ namespace BusinessLayer.ValidationRules
             RuleFor(x => x.Name).NotEmpty().WithMessage("Ad boş ola bilməz");
             RuleFor(x => x.SurName).NotEmpty().WithMessage("Soyad boş ola bilməz");
             RuleFor(x => x.Mail).NotEmpty().WithMessage("Mail boş ola bilməz");
-            RuleFor(x => x.UserName).NotEmpty().WithMessage("İstifadəçi adı boş ola bilməz"); 
+            RuleFor(x => x.Password).NotEmpty().WithMessage("Şifrə boş ola bilməz"); 
+            RuleFor(x => x.ConfirmPassword).NotEmpty().WithMessage("Təkrar şifrə adı boş ola bilməz"); 
             RuleFor(x => x.UserName).NotEmpty().WithMessage("İstifadəçi adı boş ola bilməz");
             RuleFor(x => x.UserName).MinimumLength(5).WithMessage("Ən az 5 uzunluqda olmalıdır");
             RuleFor(x => x.UserName).MaximumLength(20).WithMessage("Ən çox 20 uzunluqda olmalıdır");
